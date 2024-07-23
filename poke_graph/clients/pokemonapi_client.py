@@ -1,10 +1,9 @@
 import requests
 import functools
-from dataclasses import dataclass
 
 from typing import Optional
-
-
+from poke_graph.models.base_models import Pokemon, Type, Move
+from tqdm import tqdm
 
 class PokemonApiClient:
     def __init__(self, base_url:str = "https://pokeapi.co/api/v2/"):
@@ -12,76 +11,60 @@ class PokemonApiClient:
         self.pokemon_endpoint_url = f"{self.base_url}pokemon/"
         
     @functools.cache
-    def getPokemonByName(self, name:str) -> Optional[dict]:
+    def getPokemonByName(self, name:str) -> Pokemon | None:
         response = requests.get(self.pokemon_endpoint_url+name)
         if response.status_code != 200:
             return None
         return Pokemon.from_dict(response.json())
-
-@dataclass
-class Stats:
-    hp: int
-    attack: int
-    defense: int
-    speed: int
-    sp_attack: int
-    sp_defense: int
-
-    @classmethod
-    def from_dict(cls, data):
-        hp = 0
-        attack = 0
-        defense = 0
-        speed = 0
-        sp_attack = 0
-        sp_defense = 0
+    
+    
+    def getAllPokemon(self) -> list[Pokemon]:
+        response = requests.get(self.base_url+"pokemon?limit=3000&offset=0")
+        result = []
+        if response.status_code != 200:
+            return result
         
-        for el in data:
-            if el["stat"]["name"] == "hp":
-                hp = el["base_stat"]
-            if el["stat"]["name"] == "attack":
-                attack = el["base_stat"]
-            if el["stat"]["name"] == "defense":
-                defense = el["base_stat"]
-            if el["stat"]["name"] == "special-attack":
-                sp_attack = el["base_stat"]
-            if el["stat"]["name"] == "special-defense":
-                sp_defense = el["base_stat"]
-            if el["stat"]["name"] == "speed":
-                speed = el["base_stat"]
+        for el in tqdm(response.json()["results"], desc="FETCH POKEMON: "):
+            result.append(self.getPokemonByName(el["name"]))
+        return result
+    
+    @functools.cache
+    def getTypeByName(self, name:str) -> Type | None:
+        response = requests.get(f"{self.base_url}/type/{name}")
+        if response.status_code != 200:
+            return None
+        return Type.from_dict(response.json())
 
-        return Stats(hp, attack, defense, speed, sp_attack, sp_defense)
-
-    def stats_total(self) -> int:
-        return self.hp + self.attack + self.sp_attack + self.defense + self.sp_defense + self.speed
-
-@dataclass
-class Pokemon:
-    name: str
-    abilities: list[str]
-    moves: list[str]
-    types: list[str]
-    weight: int
-    stats: Stats
-
-    @classmethod
-    def from_dict(cls, data):
-        name = data["name"]
-        abilities = [ el["ability"]["name"] for el in data["abilities"]]
-        moves = [ el["move"]["name"] for el in data["moves"]]
-        types = [ el["type"]["name"] for el in data["types"]]
-        weight = data["weight"]
-        stats = Stats.from_dict(data["stats"])
-        return Pokemon(name, abilities, moves, types, weight, stats)
+    def getAllTypes(self):
+        response = requests.get(self.base_url+"type?limit=30&offset=0")
+        result = []
+        if response.status_code != 200:
+            return result
+        for el in tqdm(response.json()["results"], desc="FETCH TYPES: "):
+            result.append(self.getTypeByName(el["name"]))
+        return result
+    
+    @functools.cache
+    def getMoveByName(self, name: str) -> Move | None:
+        response = requests.get(f"{self.base_url}/move/{name}")
+        if response.status_code != 200:
+            return None
+        return Move.from_dict(response.json())
+    
+    def getAllMoves(self) -> Move | None:
+        response = requests.get(f"{self.base_url}/move?limit=3000&offset=0")
+        result = []
+        if response.status_code != 200:
+            return result
+        for el in tqdm(response.json()["results"], desc="FETCHING MOVES: "):
+            result.append(self.getMoveByName(el["name"]))
+        return result
 
 
 
 def main():
     client = PokemonApiClient()
-    res = client.getPokemonByName("magnemite")
+    res = client.getAllMoves()
     print(res)
-
-
-
 if __name__=="__main__":
     main()
