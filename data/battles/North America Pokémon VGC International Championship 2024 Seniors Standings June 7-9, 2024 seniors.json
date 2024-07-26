@@ -1,0 +1,4469 @@
+[
+  {
+    "name": "Mattia C. [IT]",
+    "placing": 1,
+    "record": {
+      "wins": 8,
+      "losses": 1,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.25,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Overheat",
+          "Protect",
+          "Heat Wave",
+          "Dark Pulse"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Moonblast",
+          "Icy Wind",
+          "Protect",
+          "Shadow Ball"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Water",
+        "ability": "Regenerator",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Pollen Puff",
+          "Spore",
+          "Rage Powder",
+          "Protect"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Covert Cloak",
+        "badges": [
+          "Tera Starstorm",
+          "Protect",
+          "Earth Power",
+          "Calm Mind"
+        ]
+      },
+      {
+        "id": "35",
+        "name": "Clefairy",
+        "teratype": "Fire",
+        "ability": "Friend Guard",
+        "item": "Eviolite",
+        "badges": [
+          "Moonblast",
+          "Follow Me",
+          "Protect",
+          "Heal Pulse"
+        ]
+      },
+      {
+        "id": "992",
+        "name": "Iron Hands",
+        "teratype": "Water",
+        "ability": "Quark Drive",
+        "item": "Assault Vest",
+        "badges": [
+          "Fake Out",
+          "Volt Switch",
+          "Wild Charge",
+          "Drain Punch"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Francesco G. [IT]",
+        "result": "W",
+        "table": 20
+      },
+      "2": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "L",
+        "table": 15
+      },
+      "3": {
+        "name": "Frankie Gabriel A. [IT]",
+        "result": "W",
+        "table": 18
+      },
+      "4": {
+        "name": "Matteo R. [IT]",
+        "result": "W",
+        "table": 12
+      },
+      "5": {
+        "name": "Duc I. [IT]",
+        "result": "W",
+        "table": 9
+      },
+      "6": {
+        "name": "Jacopo M. [IT]",
+        "result": "W",
+        "table": 9
+      },
+      "7": {
+        "name": "Jacopo M. [IT]",
+        "result": "W",
+        "table": 10
+      },
+      "8": {
+        "name": "Lluc S. [ES]",
+        "result": "W",
+        "table": 9
+      },
+      "9": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "W",
+        "table": 8
+      }
+    }
+  },
+  {
+    "name": "Pietro Nihal K. [IT]",
+    "placing": 2,
+    "record": {
+      "wins": 7,
+      "losses": 2,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.25,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Dark",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Protect",
+          "Scary Face",
+          "Tailwind",
+          "Bleakwind Storm"
+        ]
+      },
+      {
+        "id": "992",
+        "name": "Iron Hands",
+        "teratype": "Fairy",
+        "ability": "Quark Drive",
+        "item": "Assault Vest",
+        "badges": [
+          "Fake Out",
+          "Drain Punch",
+          "Wild Charge",
+          "Heavy Slam"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Icy Wind",
+          "Shadow Ball",
+          "Moonblast",
+          "Protect"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Choice Specs",
+        "badges": [
+          "Tera Starstorm",
+          "Dark Pulse",
+          "Earth Power",
+          "Hyper Beam"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Fairy",
+        "ability": "Regenerator",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Sludge Bomb",
+          "Protect",
+          "Rage Powder",
+          "Spore"
+        ]
+      },
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Dark Pulse",
+          "Heat Wave",
+          "Overheat",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Andrea M. [IT]",
+        "result": "W",
+        "table": 19
+      },
+      "2": {
+        "name": "Mattia C. [IT]",
+        "result": "W",
+        "table": 15
+      },
+      "3": {
+        "name": "manuel c. [IT]",
+        "result": "L",
+        "table": 12
+      },
+      "4": {
+        "name": "Andrea P. [IT]",
+        "result": "W",
+        "table": 11
+      },
+      "5": {
+        "name": "Alessio F. [IT]",
+        "result": "W",
+        "table": 11
+      },
+      "6": {
+        "name": "Louis F. [FR]",
+        "result": "W",
+        "table": 8
+      },
+      "7": {
+        "name": "Alessandro P. [IT]",
+        "result": "W",
+        "table": 9
+      },
+      "8": {
+        "name": "Duc I. [IT]",
+        "result": "W",
+        "table": 8
+      },
+      "9": {
+        "name": "Mattia C. [IT]",
+        "result": "L",
+        "table": 8
+      }
+    }
+  },
+  {
+    "name": "Lluc S. [ES]",
+    "placing": 3,
+    "record": {
+      "wins": 5,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.25,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "10275",
+        "name": "Ogerpon [Cornerstone Mask]",
+        "teratype": "Rock",
+        "ability": "Sturdy",
+        "item": "Cornerstone Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Power Whip",
+          "Follow Me",
+          "Spiky Shield"
+        ]
+      },
+      {
+        "id": "977",
+        "name": "Dondozo",
+        "teratype": "Poison",
+        "ability": "Unaware",
+        "item": "Leftovers",
+        "badges": [
+          "Protect",
+          "Wave Crash",
+          "Yawn",
+          "Fissure"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Grass",
+        "ability": "Intimidate",
+        "item": "Assault Vest",
+        "badges": [
+          "Fake Out",
+          "U-turn",
+          "Knock Off",
+          "Flare Blitz"
+        ]
+      },
+      {
+        "id": "901",
+        "name": "Ursaluna",
+        "teratype": "Ghost",
+        "ability": "Guts",
+        "item": "Flame Orb",
+        "badges": [
+          "Facade",
+          "Headlong Rush",
+          "Close Combat",
+          "Protect"
+        ]
+      },
+      {
+        "id": "792",
+        "name": "Lunala",
+        "teratype": "Fairy",
+        "ability": "Shadow Shield",
+        "item": "Safety Goggles",
+        "badges": [
+          "Moongeist Beam",
+          "Moonblast",
+          "Wide Guard",
+          "Trick Room"
+        ]
+      },
+      {
+        "id": "892",
+        "name": "Urshifu [Single Strike Style]",
+        "teratype": "Dark",
+        "ability": "Unseen Fist",
+        "item": "Focus Sash",
+        "badges": [
+          "Wicked Blow",
+          "Close Combat",
+          "Sucker Punch",
+          "Detect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Alessandro P. [IT]",
+        "result": "L",
+        "table": 22
+      },
+      "2": {
+        "name": "Andrea M. [IT]",
+        "result": "W",
+        "table": 17
+      },
+      "3": {
+        "name": "Matteo D. [IT]",
+        "result": "W",
+        "table": 14
+      },
+      "4": {
+        "name": "Leo F. [FR]",
+        "result": "L",
+        "table": 14
+      },
+      "5": {
+        "name": "Kai S. [ES]",
+        "result": "W",
+        "table": 14
+      },
+      "6": {
+        "name": "Alberto F. [IT]",
+        "result": "W",
+        "table": 14
+      },
+      "7": {
+        "name": "Leo F. [FR]",
+        "result": "W",
+        "table": 11
+      },
+      "8": {
+        "name": "Mattia C. [IT]",
+        "result": "L",
+        "table": 9
+      }
+    }
+  },
+  {
+    "name": "Duc I. [IT]",
+    "placing": 4,
+    "record": {
+      "wins": 5,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.25,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "1000",
+        "name": "Gholdengo",
+        "teratype": "Normal",
+        "ability": "Good as Gold",
+        "item": "Leftovers",
+        "badges": [
+          "Make It Rain",
+          "Protect",
+          "Shadow Ball",
+          "Nasty Plot"
+        ]
+      },
+      {
+        "id": "279",
+        "name": "Pelipper",
+        "teratype": "Ghost",
+        "ability": "Drizzle",
+        "item": "Focus Sash",
+        "badges": [
+          "Hurricane",
+          "Weather Ball",
+          "Tailwind",
+          "Wide Guard"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Dark",
+        "ability": "Regenerator",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Pollen Puff",
+          "Rage Powder",
+          "Protect",
+          "Spore"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Ghost",
+        "ability": "Intimidate",
+        "item": "Safety Goggles",
+        "badges": [
+          "Knock Off",
+          "Fake Out",
+          "Will-O-Wisp",
+          "Parting Shot"
+        ]
+      },
+      {
+        "id": 898,
+        "name": "Calyrex [Ice Rider]",
+        "teratype": "Grass",
+        "ability": "As One",
+        "item": "Clear Amulet",
+        "badges": [
+          "Glacial Lance",
+          "Protect",
+          "High Horsepower",
+          "Trick Room"
+        ]
+      },
+      {
+        "id": "10191",
+        "name": "Urshifu [Rapid Strike Style]",
+        "teratype": "Water",
+        "ability": "Unseen Fist",
+        "item": "Choice Scarf",
+        "badges": [
+          "Surging Strikes",
+          "U-turn",
+          "Close Combat",
+          "Aqua Jet"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Cristiano R. [IT]",
+        "result": "W",
+        "table": 12
+      },
+      "2": {
+        "name": "Cristian C. [IT]",
+        "result": "W",
+        "table": 10
+      },
+      "3": {
+        "name": "Niccolò R. [IT]",
+        "result": "W",
+        "table": 11
+      },
+      "4": {
+        "name": "Alessandro P. [IT]",
+        "result": "L",
+        "table": 9
+      },
+      "5": {
+        "name": "Mattia C. [IT]",
+        "result": "L",
+        "table": 9
+      },
+      "6": {
+        "name": "Dario C. [IT]",
+        "result": "W",
+        "table": 12
+      },
+      "7": {
+        "name": "Louis F. [FR]",
+        "result": "W",
+        "table": 8
+      },
+      "8": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "L",
+        "table": 8
+      }
+    }
+  },
+  {
+    "name": "Louis F. [FR]",
+    "placing": 5,
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.25,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "10191",
+        "name": "Urshifu [Rapid Strike Style]",
+        "teratype": "Ghost",
+        "ability": "Unseen Fist",
+        "item": "Choice Scarf",
+        "badges": [
+          "Surging Strikes",
+          "Close Combat",
+          "Coaching",
+          "U-turn"
+        ]
+      },
+      {
+        "id": "279",
+        "name": "Pelipper",
+        "teratype": "Ghost",
+        "ability": "Drizzle",
+        "item": "Focus Sash",
+        "badges": [
+          "Weather Ball",
+          "Hurricane",
+          "Wide Guard",
+          "Helping Hand"
+        ]
+      },
+      {
+        "id": "1021",
+        "name": "Raging Bolt",
+        "teratype": "Electric",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Thunderbolt",
+          "Draco Meteor",
+          "Thunderclap",
+          "Protect"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Fairy",
+        "ability": "Regenerator",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Pollen Puff",
+          "Spore",
+          "Rage Powder",
+          "Protect"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Ghost",
+        "ability": "Intimidate",
+        "item": "Safety Goggles",
+        "badges": [
+          "Knock Off",
+          "Fake Out",
+          "Taunt",
+          "Parting Shot"
+        ]
+      },
+      {
+        "id": 898,
+        "name": "Calyrex [Ice Rider]",
+        "teratype": "Fire",
+        "ability": "As One",
+        "item": "Clear Amulet",
+        "badges": [
+          "Glacial Lance",
+          "High Horsepower",
+          "Trick Room",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Matteo R. [IT]",
+        "result": "W",
+        "table": 21
+      },
+      "2": {
+        "name": "manuel c. [IT]",
+        "result": "W",
+        "table": 12
+      },
+      "3": {
+        "name": "Alessio F. [IT]",
+        "result": "W",
+        "table": 8
+      },
+      "4": {
+        "name": "Jacopo M. [IT]",
+        "result": "W",
+        "table": 8
+      },
+      "5": {
+        "name": "Alessandro P. [IT]",
+        "result": "W",
+        "table": 8
+      },
+      "6": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "L",
+        "table": 8
+      },
+      "7": {
+        "name": "Duc I. [IT]",
+        "result": "L",
+        "table": 8
+      }
+    }
+  },
+  {
+    "name": "Leo F. [FR]",
+    "placing": 6,
+    "record": {
+      "wins": 5,
+      "losses": 2,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.25,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Dragon",
+        "ability": "Intimidate",
+        "item": "Safety Goggles",
+        "badges": [
+          "Flare Blitz",
+          "Knock Off",
+          "Fake Out",
+          "Parting Shot"
+        ]
+      },
+      {
+        "id": "10191",
+        "name": "Urshifu [Rapid Strike Style]",
+        "teratype": "Grass",
+        "ability": "Unseen Fist",
+        "item": "Choice Scarf",
+        "badges": [
+          "Surging Strikes",
+          "Close Combat",
+          "Aqua Jet",
+          "U-turn"
+        ]
+      },
+      {
+        "id": "1018",
+        "name": "Archaludon",
+        "teratype": "Bug",
+        "ability": "Stamina",
+        "item": "Assault Vest",
+        "badges": [
+          "Electro Shot",
+          "Dragon Pulse",
+          "Flash Cannon",
+          "Body Press"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Ghost",
+        "ability": "Prankster",
+        "item": "Focus Sash",
+        "badges": [
+          "Tailwind",
+          "Rain Dance",
+          "Bleakwind Storm",
+          "Protect"
+        ]
+      },
+      {
+        "id": "382",
+        "name": "Kyogre",
+        "teratype": "Grass",
+        "ability": "Drizzle",
+        "item": "Mystic Water",
+        "badges": [
+          "Origin Pulse",
+          "Water Spout",
+          "Ice Beam",
+          "Protect"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Fairy",
+        "ability": "Regenerator",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Sludge Bomb",
+          "Pollen Puff",
+          "Rage Powder",
+          "Spore"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Emery P. [UK]",
+        "result": "W",
+        "table": 14
+      },
+      "2": {
+        "name": "Jacopo M. [IT]",
+        "result": "L",
+        "table": 9
+      },
+      "3": {
+        "name": "Francesca Z. [IT]",
+        "result": "W",
+        "table": 17
+      },
+      "4": {
+        "name": "Lluc S. [ES]",
+        "result": "W",
+        "table": 14
+      },
+      "5": {
+        "name": "Alberto F. [IT]",
+        "result": "W",
+        "table": 10
+      },
+      "6": {
+        "name": "Alessandro P. [IT]",
+        "result": "W",
+        "table": 10
+      },
+      "7": {
+        "name": "Lluc S. [ES]",
+        "result": "L",
+        "table": 11
+      }
+    }
+  },
+  {
+    "name": "Alessandro P. [IT]",
+    "placing": 7,
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.25,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Dark",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Bleakwind Storm",
+          "Taunt",
+          "Rain Dance",
+          "Tailwind"
+        ]
+      },
+      {
+        "id": "1002",
+        "name": "Chien-Pao",
+        "teratype": "Ghost",
+        "ability": "Sword of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Icicle Crash",
+          "Sucker Punch",
+          "Sacred Sword",
+          "Protect"
+        ]
+      },
+      {
+        "id": "10186",
+        "name": "Indeedee [Female]",
+        "teratype": "Dragon",
+        "ability": "Psychic Surge",
+        "item": "Psychic Seed",
+        "badges": [
+          "Helping Hand",
+          "Follow Me",
+          "Imprison",
+          "Trick Room"
+        ]
+      },
+      {
+        "id": "382",
+        "name": "Kyogre",
+        "teratype": "Water",
+        "ability": "Drizzle",
+        "item": "Choice Scarf",
+        "badges": [
+          "Water Spout",
+          "Origin Pulse",
+          "Ice Beam",
+          "Thunder"
+        ]
+      },
+      {
+        "id": "1017",
+        "name": "Ogerpon [Teal Mask]",
+        "teratype": "Grass",
+        "ability": "Defiant",
+        "item": "Razor Claw",
+        "badges": [
+          "Ivy Cudgel",
+          "Superpower",
+          "Swords Dance",
+          "Spiky Shield"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Water",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Will-O-Wisp",
+          "Knock Off",
+          "Parting Shot",
+          "Fake Out"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Lluc S. [ES]",
+        "result": "W",
+        "table": 22
+      },
+      "2": {
+        "name": "Francesca Z. [IT]",
+        "result": "W",
+        "table": 11
+      },
+      "3": {
+        "name": "Fabio I. [IT]",
+        "result": "W",
+        "table": 10
+      },
+      "4": {
+        "name": "Duc I. [IT]",
+        "result": "W",
+        "table": 9
+      },
+      "5": {
+        "name": "Louis F. [FR]",
+        "result": "L",
+        "table": 8
+      },
+      "6": {
+        "name": "Leo F. [FR]",
+        "result": "L",
+        "table": 10
+      },
+      "7": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "L",
+        "table": 9
+      }
+    }
+  },
+  {
+    "name": "Jacopo M. [IT]",
+    "placing": 8,
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.25,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "1021",
+        "name": "Raging Bolt",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Assault Vest",
+        "badges": [
+          "Thunderclap",
+          "Thunderbolt",
+          "Electroweb",
+          "Draco Meteor"
+        ]
+      },
+      {
+        "id": "35",
+        "name": "Clefairy",
+        "teratype": "Grass",
+        "ability": "Friend Guard",
+        "item": "Eviolite",
+        "badges": [
+          "Moonblast",
+          "Follow Me",
+          "Protect",
+          "Helping Hand"
+        ]
+      },
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Safety Goggles",
+        "badges": [
+          "Taunt",
+          "Snarl",
+          "Overheat",
+          "Protect"
+        ]
+      },
+      {
+        "id": "10191",
+        "name": "Urshifu [Rapid Strike Style]",
+        "teratype": "Grass",
+        "ability": "Unseen Fist",
+        "item": "Choice Scarf",
+        "badges": [
+          "Aqua Jet",
+          "Surging Strikes",
+          "Close Combat",
+          "U-turn"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Choice Specs",
+        "badges": [
+          "Tera Starstorm",
+          "Dark Pulse",
+          "Earth Power",
+          "Hyper Beam"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Fire",
+        "ability": "Grassy Surge",
+        "item": "Miracle Seed",
+        "badges": [
+          "Grassy Glide",
+          "Wood Hammer",
+          "Fake Out",
+          "U-turn"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Andrea P. [IT]",
+        "result": "W",
+        "table": 8
+      },
+      "2": {
+        "name": "Leo F. [FR]",
+        "result": "W",
+        "table": 9
+      },
+      "3": {
+        "name": "Gustav B. [SE]",
+        "result": "W",
+        "table": 9
+      },
+      "4": {
+        "name": "Louis F. [FR]",
+        "result": "L",
+        "table": 8
+      },
+      "5": {
+        "name": "Julian B. [AT]",
+        "result": "W",
+        "table": 12
+      },
+      "6": {
+        "name": "Mattia C. [IT]",
+        "result": "L",
+        "table": 9
+      },
+      "7": {
+        "name": "Mattia C. [IT]",
+        "result": "L",
+        "table": 10
+      }
+    }
+  },
+  {
+    "name": "Gustav B. [SE]",
+    "placing": 9,
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.666666666666667,
+      "opp": 0.511111111111111,
+      "oppopp": 0.563888888888889
+    },
+    "decklist": [
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Choice Scarf",
+        "badges": [
+          "Heat Wave",
+          "Dark Pulse",
+          "Overheat",
+          "Snarl"
+        ]
+      },
+      {
+        "id": 898,
+        "name": "Calyrex [Shadow Rider]",
+        "teratype": "Fairy",
+        "ability": "As One",
+        "item": "Spell Tag",
+        "badges": [
+          "Astral Barrage",
+          "Psychic",
+          "Protect",
+          "Nasty Plot"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Ghost",
+        "ability": "Prankster",
+        "item": "Mental Herb",
+        "badges": [
+          "Tailwind",
+          "Protect",
+          "Bleakwind Storm",
+          "Rain Dance"
+        ]
+      },
+      {
+        "id": "10273",
+        "name": "Ogerpon [Wellspring Mask]",
+        "teratype": "Water",
+        "ability": "Water Absorb",
+        "item": "Wellspring Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Wood Hammer",
+          "Spiky Shield",
+          "Follow Me"
+        ]
+      },
+      {
+        "id": "645",
+        "name": "Landorus [Incarnate Forme]",
+        "teratype": "Poison",
+        "ability": "Sheer Force",
+        "item": "Life Orb",
+        "badges": [
+          "Earth Power",
+          "Sludge Bomb",
+          "Protect",
+          "Substitute"
+        ]
+      },
+      {
+        "id": "620",
+        "name": "Mienshao",
+        "teratype": "Flying",
+        "ability": "Inner Focus",
+        "item": "Focus Sash",
+        "badges": [
+          "Close Combat",
+          "Fake Out",
+          "Feint",
+          "Wide Guard"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Dario C. [IT]",
+        "result": "W",
+        "table": 25
+      },
+      "2": {
+        "name": "Frankie Gabriel A. [IT]",
+        "result": "W",
+        "table": 14
+      },
+      "3": {
+        "name": "Jacopo M. [IT]",
+        "result": "L",
+        "table": 9
+      },
+      "4": {
+        "name": "Alberto F. [IT]",
+        "result": "L",
+        "table": 15
+      },
+      "5": {
+        "name": "Matteo R. [IT]",
+        "result": "W",
+        "table": 18
+      },
+      "6": {
+        "name": "Fabio I. [IT]",
+        "result": "W",
+        "table": 11
+      }
+    }
+  },
+  {
+    "name": "Fabio I. [IT]",
+    "placing": 10,
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.666666666666667,
+      "opp": 0.5,
+      "oppopp": 0.65462962962963
+    },
+    "decklist": [
+      {
+        "id": "279",
+        "name": "Pelipper",
+        "teratype": "Fairy",
+        "ability": "Drizzle",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Hurricane",
+          "Weather Ball",
+          "Protect",
+          "Wide Guard"
+        ]
+      },
+      {
+        "id": "35",
+        "name": "Clefairy",
+        "teratype": "Grass",
+        "ability": "Friend Guard",
+        "item": "Eviolite",
+        "badges": [
+          "Follow Me",
+          "Protect",
+          "Helping Hand",
+          "Life Dew"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Grass",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Wood Hammer",
+          "Grassy Glide",
+          "Fake Out",
+          "U-turn"
+        ]
+      },
+      {
+        "id": "890",
+        "name": "Eternatus",
+        "teratype": "Fairy",
+        "ability": "Pressure",
+        "item": "Leftovers",
+        "badges": [
+          "Cosmic Power",
+          "Recover",
+          "Dynamax Cannon",
+          "Flamethrower"
+        ]
+      },
+      {
+        "id": "983",
+        "name": "Kingambit",
+        "teratype": "Dark",
+        "ability": "Defiant",
+        "item": "Black Glasses",
+        "badges": [
+          "Kowtow Cleave",
+          "Iron Head",
+          "Sucker Punch",
+          "Protect"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Grass",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Knock Off",
+          "Will-O-Wisp",
+          "Parting Shot",
+          "Fake Out"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Mattia L. [IT]",
+        "result": "W",
+        "table": 10
+      },
+      "2": {
+        "name": "Julian B. [AT]",
+        "result": "W",
+        "table": 8
+      },
+      "3": {
+        "name": "Alessandro P. [IT]",
+        "result": "L",
+        "table": 10
+      },
+      "4": {
+        "name": "manuel c. [IT]",
+        "result": "W",
+        "table": 13
+      },
+      "5": {
+        "name": "Andrea M. [IT]",
+        "result": "W",
+        "table": 13
+      },
+      "6": {
+        "name": "Gustav B. [SE]",
+        "result": "L",
+        "table": 11
+      }
+    }
+  },
+  {
+    "name": "Julian B. [AT]",
+    "placing": 11,
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.666666666666667,
+      "opp": 0.472222222222222,
+      "oppopp": 0.63712962962963
+    },
+    "decklist": [
+      {
+        "id": "10191",
+        "name": "Urshifu [Rapid Strike Style]",
+        "teratype": "Grass",
+        "ability": "Unseen Fist",
+        "item": "Mystic Water",
+        "badges": [
+          "Surging Strikes",
+          "Close Combat",
+          "Coaching",
+          "Protect"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Normal",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Bleakwind Storm",
+          "Tailwind",
+          "Protect",
+          "Rain Dance"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Fire",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Wood Hammer",
+          "Grassy Glide",
+          "High Horsepower",
+          "Fake Out"
+        ]
+      },
+      {
+        "id": "888",
+        "name": "Zacian",
+        "teratype": "Fairy",
+        "ability": "Intrepid Sword",
+        "item": "Rusted Sword",
+        "badges": [
+          "Behemoth Blade",
+          "Play Rough",
+          "Swords Dance",
+          "Protect"
+        ]
+      },
+      {
+        "id": "197",
+        "name": "Umbreon",
+        "teratype": "Water",
+        "ability": "Inner Focus",
+        "item": "Safety Goggles",
+        "badges": [
+          "Foul Play",
+          "Snarl",
+          "Yawn",
+          "Taunt"
+        ]
+      },
+      {
+        "id": "937",
+        "name": "Ceruledge",
+        "teratype": "Bug",
+        "ability": "Flash Fire",
+        "item": "Clear Amulet",
+        "badges": [
+          "Bitter Blade",
+          "Shadow Sneak",
+          "Bulk Up",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Adrien G. [FR]",
+        "result": "W",
+        "table": 17
+      },
+      "2": {
+        "name": "Fabio I. [IT]",
+        "result": "L",
+        "table": 8
+      },
+      "3": {
+        "name": "Cristian C. [IT]",
+        "result": "W",
+        "table": 19
+      },
+      "4": {
+        "name": "Niccolò R. [IT]",
+        "result": "W",
+        "table": 10
+      },
+      "5": {
+        "name": "Jacopo M. [IT]",
+        "result": "L",
+        "table": 12
+      },
+      "6": {
+        "name": "manuel c. [IT]",
+        "result": "W",
+        "table": 13
+      }
+    }
+  },
+  {
+    "name": "Cristiano R. [IT]",
+    "placing": 12,
+    "record": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.6,
+      "opp": 0.383333333333333,
+      "oppopp": 0.532
+    },
+    "decklist": [
+      {
+        "id": "981",
+        "name": "Farigiraf",
+        "teratype": "Dragon",
+        "ability": "Armor Tail",
+        "item": "Safety Goggles",
+        "badges": [
+          "Uproar",
+          "Helping Hand",
+          "Trick Room",
+          "Dazzling Gleam"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Ghost",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Knock Off",
+          "Fake Out",
+          "Taunt",
+          "Parting Shot"
+        ]
+      },
+      {
+        "id": 898,
+        "name": "Calyrex [Ice Rider]",
+        "teratype": "Water",
+        "ability": "As One",
+        "item": "Clear Amulet",
+        "badges": [
+          "Glacial Lance",
+          "High Horsepower",
+          "Trick Room",
+          "Protect"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Fire",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Wood Hammer",
+          "U-turn",
+          "Grassy Glide",
+          "Fake Out"
+        ]
+      },
+      {
+        "id": "1000",
+        "name": "Gholdengo",
+        "teratype": "Normal",
+        "ability": "Good as Gold",
+        "item": "Leftovers",
+        "badges": [
+          "Make It Rain",
+          "Shadow Ball",
+          "Nasty Plot",
+          "Protect"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Water",
+        "ability": "Regenerator",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Spore",
+          "Pollen Puff",
+          "Rage Powder",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Duc I. [IT]",
+        "result": "L",
+        "table": 12
+      },
+      "2": {
+        "name": "Stefano B. [IT]",
+        "result": "L",
+        "table": 20
+      },
+      "3": {
+        "name": "BYE",
+        "result": "W",
+        "table": 0
+      },
+      "4": {
+        "name": "Cristian C. [IT]",
+        "result": "W",
+        "table": 17
+      },
+      "5": {
+        "name": "Andrea P. [IT]",
+        "result": "W",
+        "table": 17
+      },
+      "6": {
+        "name": "Alessio F. [IT]",
+        "result": "W",
+        "table": 15
+      }
+    }
+  },
+  {
+    "name": "manuel c. [IT]",
+    "placing": 13,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.5,
+      "opp": 0.666666666666667,
+      "oppopp": 0.52962962962963
+    },
+    "decklist": [
+      {
+        "id": "547",
+        "name": "Whimsicott",
+        "teratype": "Dark",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Moonblast",
+          "Tailwind",
+          "Encore",
+          "Fake Tears"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Choice Specs",
+        "badges": [
+          "Tera Starstorm",
+          "Hyper Beam",
+          "Dark Pulse",
+          "Earth Power"
+        ]
+      },
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Snarl",
+          "Dark Pulse",
+          "Heat Wave",
+          "Overheat"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Moonblast",
+          "Icy Wind",
+          "Protect",
+          "Shadow Ball"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Water",
+        "ability": "Regenerator",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Pollen Puff",
+          "Spore",
+          "Rage Powder",
+          "Sludge Bomb"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Fire",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Fake Out",
+          "Grassy Glide",
+          "Wood Hammer",
+          "U-turn"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Alberto F. [IT]",
+        "result": "W",
+        "table": 24
+      },
+      "2": {
+        "name": "Louis F. [FR]",
+        "result": "L",
+        "table": 12
+      },
+      "3": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "W",
+        "table": 12
+      },
+      "4": {
+        "name": "Fabio I. [IT]",
+        "result": "L",
+        "table": 13
+      },
+      "5": {
+        "name": "Niccolò R. [IT]",
+        "result": "W",
+        "table": 15
+      },
+      "6": {
+        "name": "Julian B. [AT]",
+        "result": "L",
+        "table": 13
+      }
+    }
+  },
+  {
+    "name": "Alberto F. [IT]",
+    "placing": 14,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.5,
+      "opp": 0.594444444444444,
+      "oppopp": 0.540740740740741
+    },
+    "decklist": [
+      {
+        "id": "547",
+        "name": "Whimsicott",
+        "teratype": "Ghost",
+        "ability": "Prankster",
+        "item": "Focus Sash",
+        "badges": [
+          "Moonblast",
+          "Tailwind",
+          "Encore",
+          "Protect"
+        ]
+      },
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Choice Scarf",
+        "badges": [
+          "Heat Wave",
+          "Dark Pulse",
+          "Overheat",
+          "Snarl"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Fairy",
+        "ability": "Regenerator",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Spore",
+          "Pollen Puff",
+          "Rage Powder",
+          "Protect"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Moonblast",
+          "Icy Wind",
+          "Fake Tears",
+          "Protect"
+        ]
+      },
+      {
+        "id": "992",
+        "name": "Iron Hands",
+        "teratype": "Water",
+        "ability": "Quark Drive",
+        "item": "Assault Vest",
+        "badges": [
+          "Fake Out",
+          "Drain Punch",
+          "Wild Charge",
+          "Heavy Slam"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Choice Specs",
+        "badges": [
+          "Tera Starstorm",
+          "Earth Power",
+          "Hyper Beam",
+          "Dark Pulse"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "manuel c. [IT]",
+        "result": "L",
+        "table": 24
+      },
+      "2": {
+        "name": "Dario C. [IT]",
+        "result": "W",
+        "table": 19
+      },
+      "3": {
+        "name": "Kai S. [ES]",
+        "result": "W",
+        "table": 13
+      },
+      "4": {
+        "name": "Gustav B. [SE]",
+        "result": "W",
+        "table": 15
+      },
+      "5": {
+        "name": "Leo F. [FR]",
+        "result": "L",
+        "table": 10
+      },
+      "6": {
+        "name": "Lluc S. [ES]",
+        "result": "L",
+        "table": 14
+      }
+    }
+  },
+  {
+    "name": "Dario C. [IT]",
+    "placing": 15,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.4,
+      "opp": 0.566666666666667,
+      "oppopp": 0.506111111111111
+    },
+    "decklist": [
+      {
+        "id": "279",
+        "name": "Pelipper",
+        "teratype": "Normal",
+        "ability": "Drizzle",
+        "item": "Covert Cloak",
+        "badges": [
+          "Wide Guard",
+          "Tailwind",
+          "Weather Ball",
+          "Hurricane"
+        ]
+      },
+      {
+        "id": "889",
+        "name": "Zamazenta",
+        "teratype": "Grass",
+        "ability": "Dauntless Shield",
+        "item": "Rusted Shield",
+        "badges": [
+          "Body Press",
+          "Iron Defense",
+          "Heavy Slam",
+          "Protect"
+        ]
+      },
+      {
+        "id": "1002",
+        "name": "Chien-Pao",
+        "teratype": "Ghost",
+        "ability": "Sword of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Icicle Crash",
+          "Sucker Punch",
+          "Throat Chop",
+          "Protect"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Grass",
+        "ability": "Grassy Surge",
+        "item": "Choice Band",
+        "badges": [
+          "Wood Hammer",
+          "U-turn",
+          "Grassy Glide",
+          "High Horsepower"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Ghost",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Knock Off",
+          "Parting Shot",
+          "Taunt",
+          "Fake Out"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Moonblast",
+          "Shadow Ball",
+          "Icy Wind",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Gustav B. [SE]",
+        "result": "L",
+        "table": 25
+      },
+      "2": {
+        "name": "Alberto F. [IT]",
+        "result": "L",
+        "table": 19
+      },
+      "3": {
+        "name": "BYE",
+        "result": "W",
+        "table": 0
+      },
+      "4": {
+        "name": "Francesca Z. [IT]",
+        "result": "W",
+        "table": 19
+      },
+      "5": {
+        "name": "Matteo D. [IT]",
+        "result": "W",
+        "table": 16
+      },
+      "6": {
+        "name": "Duc I. [IT]",
+        "result": "L",
+        "table": 12
+      }
+    }
+  },
+  {
+    "name": "Alessio F. [IT]",
+    "placing": 16,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.5,
+      "opp": 0.558333333333333,
+      "oppopp": 0.466296296296296
+    },
+    "decklist": [
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Water",
+        "ability": "Regenerator",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Pollen Puff",
+          "Spore",
+          "Rage Powder",
+          "Protect"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Choice Specs",
+        "badges": [
+          "Tera Starstorm",
+          "Earth Power",
+          "Thunderbolt",
+          "Flamethrower"
+        ]
+      },
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Heat Wave",
+          "Dark Pulse",
+          "Overheat",
+          "Protect"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Moonblast",
+          "Shadow Ball",
+          "Icy Wind",
+          "Protect"
+        ]
+      },
+      {
+        "id": "10275",
+        "name": "Ogerpon [Cornerstone Mask]",
+        "teratype": "Rock",
+        "ability": "Sturdy",
+        "item": "Cornerstone Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Power Whip",
+          "Follow Me",
+          "Spiky Shield"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Steel",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Bleakwind Storm",
+          "Tailwind",
+          "Scary Face",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Stefano B. [IT]",
+        "result": "W",
+        "table": 23
+      },
+      "2": {
+        "name": "Kai S. [ES]",
+        "result": "W",
+        "table": 13
+      },
+      "3": {
+        "name": "Louis F. [FR]",
+        "result": "L",
+        "table": 8
+      },
+      "4": {
+        "name": "Filippo S. [IT]",
+        "result": "W",
+        "table": 16
+      },
+      "5": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "L",
+        "table": 11
+      },
+      "6": {
+        "name": "Cristiano R. [IT]",
+        "result": "L",
+        "table": 15
+      }
+    }
+  },
+  {
+    "name": "Matteo R. [IT]",
+    "placing": 17,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.5,
+      "opp": 0.527777777777778,
+      "oppopp": 0.498240740740741
+    },
+    "decklist": [
+      {
+        "id": "1000",
+        "name": "Gholdengo",
+        "teratype": "Fairy",
+        "ability": "Good as Gold",
+        "item": "Leftovers",
+        "badges": [
+          "Make It Rain",
+          "Nasty Plot",
+          "Shadow Ball",
+          "Protect"
+        ]
+      },
+      {
+        "id": "1021",
+        "name": "Raging Bolt",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Thunderclap",
+          "Calm Mind",
+          "Protect",
+          "Dragon Pulse"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Water",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Wood Hammer",
+          "High Horsepower",
+          "Fake Out",
+          "Grassy Glide"
+        ]
+      },
+      {
+        "id": "889",
+        "name": "Zamazenta",
+        "teratype": "Grass",
+        "ability": "Dauntless Shield",
+        "item": "Rusted Shield",
+        "badges": [
+          "Body Press",
+          "Heavy Slam",
+          "Wide Guard",
+          "Iron Defense"
+        ]
+      },
+      {
+        "id": "10273",
+        "name": "Ogerpon [Wellspring Mask]",
+        "teratype": "Water",
+        "ability": "Water Absorb",
+        "item": "Wellspring Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Horn Leech",
+          "Follow Me",
+          "Spiky Shield"
+        ]
+      },
+      {
+        "id": "861",
+        "name": "Grimmsnarl",
+        "teratype": "Ghost",
+        "ability": "Prankster",
+        "item": "Light Clay",
+        "badges": [
+          "Reflect",
+          "Light Screen",
+          "Spirit Break",
+          "Thunder Wave"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Louis F. [FR]",
+        "result": "L",
+        "table": 21
+      },
+      "2": {
+        "name": "Francesco G. [IT]",
+        "result": "W",
+        "table": 21
+      },
+      "3": {
+        "name": "Stefano B. [IT]",
+        "result": "W",
+        "table": 15
+      },
+      "4": {
+        "name": "Mattia C. [IT]",
+        "result": "L",
+        "table": 12
+      },
+      "5": {
+        "name": "Gustav B. [SE]",
+        "result": "L",
+        "table": 18
+      },
+      "6": {
+        "name": "Filippo S. [IT]",
+        "result": "W",
+        "table": 18
+      }
+    }
+  },
+  {
+    "name": "Niccolò R. [IT]",
+    "placing": 18,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.5,
+      "opp": 0.472222222222222,
+      "oppopp": 0.612962962962963
+    },
+    "decklist": [
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Water",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Wood Hammer",
+          "U-turn",
+          "Fake Out",
+          "Grassy Glide"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Ghost",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Parting Shot",
+          "Flare Blitz",
+          "Knock Off",
+          "Fake Out"
+        ]
+      },
+      {
+        "id": 898,
+        "name": "Calyrex [Shadow Rider]",
+        "teratype": "Fairy",
+        "ability": "As One",
+        "item": "Clear Amulet",
+        "badges": [
+          "Astral Barrage",
+          "Psyshock",
+          "Protect",
+          "Shadow Ball"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Steel",
+        "ability": "Prankster",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Bleakwind Storm",
+          "Rain Dance",
+          "Tailwind",
+          "Protect"
+        ]
+      },
+      {
+        "id": "892",
+        "name": "Urshifu [Single Strike Style]",
+        "teratype": "Dark",
+        "ability": "Unseen Fist",
+        "item": "Focus Sash",
+        "badges": [
+          "Wicked Blow",
+          "Close Combat",
+          "Sucker Punch",
+          "Detect"
+        ]
+      },
+      {
+        "id": "10273",
+        "name": "Ogerpon [Wellspring Mask]",
+        "teratype": "Water",
+        "ability": "Embody Aspect",
+        "item": "Wellspring Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Wood Hammer",
+          "Spiky Shield",
+          "Follow Me"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Andrea Giuseppe N. [IT]",
+        "result": "W",
+        "table": 15
+      },
+      "2": {
+        "name": "Matteo D. [IT]",
+        "result": "W",
+        "table": 16
+      },
+      "3": {
+        "name": "Duc I. [IT]",
+        "result": "L",
+        "table": 11
+      },
+      "4": {
+        "name": "Julian B. [AT]",
+        "result": "L",
+        "table": 10
+      },
+      "5": {
+        "name": "manuel c. [IT]",
+        "result": "L",
+        "table": 15
+      },
+      "6": {
+        "name": "Andrea M. [IT]",
+        "result": "W",
+        "table": 16
+      }
+    }
+  },
+  {
+    "name": "Francesca Z. [IT]",
+    "placing": 19,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.5,
+      "opp": 0.469444444444445,
+      "oppopp": 0.548703703703704
+    },
+    "decklist": [
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Heat Wave",
+          "Overheat",
+          "Dark Pulse",
+          "Protect"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Dark",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Tailwind",
+          "Bleakwind Storm",
+          "Sunny Day",
+          "Taunt"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Water",
+        "ability": "Regenerator",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Spore",
+          "Rage Powder",
+          "Pollen Puff",
+          "Protect"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Icy Wind",
+          "Moonblast",
+          "Taunt",
+          "Protect"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Choice Specs",
+        "badges": [
+          "Tera Starstorm",
+          "Hyper Beam",
+          "Earth Power",
+          "Dark Pulse"
+        ]
+      },
+      {
+        "id": "645",
+        "name": "Landorus [Incarnate Forme]",
+        "teratype": "Steel",
+        "ability": "Sheer Force",
+        "item": "Life Orb",
+        "badges": [
+          "Sandsear Storm",
+          "Earth Power",
+          "Sludge Bomb",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Filippo S. [IT]",
+        "result": "W",
+        "table": 9
+      },
+      "2": {
+        "name": "Alessandro P. [IT]",
+        "result": "L",
+        "table": 11
+      },
+      "3": {
+        "name": "Leo F. [FR]",
+        "result": "L",
+        "table": 17
+      },
+      "4": {
+        "name": "Dario C. [IT]",
+        "result": "L",
+        "table": 19
+      },
+      "5": {
+        "name": "Frankie Gabriel A. [IT]",
+        "result": "W",
+        "table": 21
+      },
+      "6": {
+        "name": "Andrea P. [IT]",
+        "result": "W",
+        "table": 19
+      }
+    }
+  },
+  {
+    "name": "Kai S. [ES]",
+    "placing": 20,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.5,
+      "opp": 0.416666666666667,
+      "oppopp": 0.587592592592593
+    },
+    "decklist": [
+      {
+        "id": "889",
+        "name": "Zamazenta",
+        "teratype": "Dragon",
+        "ability": "Dauntless Shield",
+        "item": "Rusted Shield",
+        "badges": [
+          "Protect",
+          "Body Press",
+          "Heavy Slam",
+          "Wide Guard"
+        ]
+      },
+      {
+        "id": "1002",
+        "name": "Chien-Pao",
+        "teratype": "Ghost",
+        "ability": "Sword of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Protect",
+          "Icicle Crash",
+          "Sucker Punch",
+          "Sacred Sword"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Protect",
+          "Moonblast",
+          "Icy Wind",
+          "Thunder Wave"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Grass",
+        "ability": "Grassy Surge",
+        "item": "Choice Band",
+        "badges": [
+          "Grassy Glide",
+          "Wood Hammer",
+          "High Horsepower",
+          "U-turn"
+        ]
+      },
+      {
+        "id": "609",
+        "name": "Chandelure",
+        "teratype": "Grass",
+        "ability": "Flash Fire",
+        "item": "Life Orb",
+        "badges": [
+          "Protect",
+          "Heat Wave",
+          "Shadow Ball",
+          "Trick Room"
+        ]
+      },
+      {
+        "id": "10171",
+        "name": "Moltres [Galarian Form]",
+        "teratype": "Dark",
+        "ability": "Berserk",
+        "item": "Black Glasses",
+        "badges": [
+          "Protect",
+          "Foul Play",
+          "Fiery Wrath",
+          "Taunt"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Alexander Vega K. [DE]",
+        "result": "W",
+        "table": 13
+      },
+      "2": {
+        "name": "Alessio F. [IT]",
+        "result": "L",
+        "table": 13
+      },
+      "3": {
+        "name": "Alberto F. [IT]",
+        "result": "L",
+        "table": 13
+      },
+      "4": {
+        "name": "Tobias B. [AT]",
+        "result": "W",
+        "table": 20
+      },
+      "5": {
+        "name": "Lluc S. [ES]",
+        "result": "L",
+        "table": 14
+      },
+      "6": {
+        "name": "Stefano B. [IT]",
+        "result": "W",
+        "table": 20
+      }
+    }
+  },
+  {
+    "name": "Matteo D. [IT]",
+    "placing": 21,
+    "record": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.5,
+      "opp": 0.413888888888889,
+      "oppopp": 0.575925925925926
+    },
+    "decklist": [
+      {
+        "id": 898,
+        "name": "Calyrex [Shadow Rider]",
+        "teratype": "Fairy",
+        "ability": "As One",
+        "item": "Life Orb",
+        "badges": [
+          "Expanding Force",
+          "Draining Kiss",
+          "Protect",
+          "Astral Barrage"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Dark",
+        "ability": "Prankster",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Bleakwind Storm",
+          "Taunt",
+          "Rain Dance",
+          "Tailwind"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Grass",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Flare Blitz",
+          "Parting Shot",
+          "Fake Out",
+          "Knock Off"
+        ]
+      },
+      {
+        "id": "10273",
+        "name": "Ogerpon [Wellspring Mask]",
+        "teratype": "Water",
+        "ability": "Water Absorb",
+        "item": "Wellspring Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Spiky Shield",
+          "Horn Leech",
+          "Follow Me"
+        ]
+      },
+      {
+        "id": "10186",
+        "name": "Indeedee [Female]",
+        "teratype": "Fairy",
+        "ability": "Psychic Surge",
+        "item": "Psychic Seed",
+        "badges": [
+          "Helping Hand",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Follow Me"
+        ]
+      },
+      {
+        "id": "892",
+        "name": "Urshifu [Single Strike Style]",
+        "teratype": "Dark",
+        "ability": "Unseen Fist",
+        "item": "Focus Sash",
+        "badges": [
+          "Wicked Blow",
+          "Sucker Punch",
+          "Close Combat",
+          "Detect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Lasse F. [DE]",
+        "result": "W",
+        "table": 16
+      },
+      "2": {
+        "name": "Niccolò R. [IT]",
+        "result": "L",
+        "table": 16
+      },
+      "3": {
+        "name": "Lluc S. [ES]",
+        "result": "L",
+        "table": 14
+      },
+      "4": {
+        "name": "Frankie Gabriel A. [IT]",
+        "result": "W",
+        "table": 18
+      },
+      "5": {
+        "name": "Dario C. [IT]",
+        "result": "L",
+        "table": 16
+      },
+      "6": {
+        "name": "Tobias B. [AT]",
+        "result": "W",
+        "table": 17
+      }
+    }
+  },
+  {
+    "name": "Andrea P. [IT]",
+    "placing": 22,
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.586666666666667,
+      "oppopp": 0.49
+    },
+    "decklist": [
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Moonblast",
+          "Icy Wind",
+          "Taunt",
+          "Protect"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Ghost",
+        "ability": "Intimidate",
+        "item": "Safety Goggles",
+        "badges": [
+          "Fake Out",
+          "Will-O-Wisp",
+          "Knock Off",
+          "Parting Shot"
+        ]
+      },
+      {
+        "id": "10191",
+        "name": "Urshifu [Rapid Strike Style]",
+        "teratype": "Water",
+        "ability": "Unseen Fist",
+        "item": "Focus Sash",
+        "badges": [
+          "Surging Strikes",
+          "Close Combat",
+          "Aqua Jet",
+          "Protect"
+        ]
+      },
+      {
+        "id": "10274",
+        "name": "Ogerpon [Hearthflame Mask]",
+        "teratype": "Fire",
+        "ability": "Mold Breaker",
+        "item": "Hearthflame Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Horn Leech",
+          "Follow Me",
+          "Spiky Shield"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Fire",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Fake Out",
+          "Grassy Glide",
+          "Wood Hammer",
+          "High Horsepower"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Leftovers",
+        "badges": [
+          "Tera Starstorm",
+          "Protect",
+          "Earth Power",
+          "Calm Mind"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Jacopo M. [IT]",
+        "result": "L",
+        "table": 8
+      },
+      "2": {
+        "name": "BYE",
+        "result": "W",
+        "table": 0
+      },
+      "3": {
+        "name": "Filippo S. [IT]",
+        "result": "W",
+        "table": 16
+      },
+      "4": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "L",
+        "table": 11
+      },
+      "5": {
+        "name": "Cristiano R. [IT]",
+        "result": "L",
+        "table": 17
+      },
+      "6": {
+        "name": "Francesca Z. [IT]",
+        "result": "L",
+        "table": 19
+      }
+    }
+  },
+  {
+    "name": "Andrea M. [IT]",
+    "placing": 23,
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.583333333333333,
+      "oppopp": 0.502333333333333
+    },
+    "decklist": [
+      {
+        "id": "1009",
+        "name": "Walking Wake",
+        "teratype": "Fire",
+        "ability": "Protosynthesis",
+        "item": "Life Orb",
+        "badges": [
+          "Hydro Steam",
+          "Flamethrower",
+          "Protect",
+          "Draco Meteor"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Steel",
+        "ability": "Prankster",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Bleakwind Storm",
+          "Tailwind",
+          "Protect",
+          "Icy Wind"
+        ]
+      },
+      {
+        "id": "10233",
+        "name": "Typhlosion [Hisuian Form]",
+        "teratype": "Fire",
+        "ability": "Blaze",
+        "item": "Choice Specs",
+        "badges": [
+          "Heat Wave",
+          "Flamethrower",
+          "Shadow Ball",
+          "Eruption"
+        ]
+      },
+      {
+        "id": "1007",
+        "name": "Koraidon",
+        "teratype": "Steel",
+        "ability": "Orichalcum Pulse",
+        "item": "Assault Vest",
+        "badges": [
+          "Flame Charge",
+          "Stomping Tantrum",
+          "Dragon Claw",
+          "Collision Course"
+        ]
+      },
+      {
+        "id": "992",
+        "name": "Iron Hands",
+        "teratype": "Water",
+        "ability": "Quark Drive",
+        "item": "Clear Amulet",
+        "badges": [
+          "Drain Punch",
+          "Fake Out",
+          "Wild Charge",
+          "Volt Switch"
+        ]
+      },
+      {
+        "id": "10237",
+        "name": "Lilligant [Hisuian Form]",
+        "teratype": "Normal",
+        "ability": "Chlorophyll",
+        "item": "Focus Sash",
+        "badges": [
+          "Close Combat",
+          "After You",
+          "Helping Hand",
+          "Solar Blade"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Pietro Nihal K. [IT]",
+        "result": "L",
+        "table": 19
+      },
+      "2": {
+        "name": "Lluc S. [ES]",
+        "result": "L",
+        "table": 17
+      },
+      "3": {
+        "name": "BYE",
+        "result": "W",
+        "table": 0
+      },
+      "4": {
+        "name": "Stefano B. [IT]",
+        "result": "W",
+        "table": 21
+      },
+      "5": {
+        "name": "Fabio I. [IT]",
+        "result": "L",
+        "table": 13
+      },
+      "6": {
+        "name": "Niccolò R. [IT]",
+        "result": "L",
+        "table": 16
+      }
+    }
+  },
+  {
+    "name": "Frankie Gabriel A. [IT]",
+    "placing": 24,
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.333333333333333,
+      "opp": 0.513888888888889,
+      "oppopp": 0.460648148148148
+    },
+    "decklist": [
+      {
+        "id": "279",
+        "name": "Pelipper",
+        "teratype": "Grass",
+        "ability": "Drizzle",
+        "item": "Covert Cloak",
+        "badges": [
+          "Wide Guard",
+          "Weather Ball",
+          "Tailwind",
+          "Helping Hand"
+        ]
+      },
+      {
+        "id": "1022",
+        "name": "Iron Boulder",
+        "teratype": "Ground",
+        "ability": "Quark Drive",
+        "item": "Electric Seed",
+        "badges": [
+          "Zen Headbutt",
+          "Mighty Cleave",
+          "Sacred Sword",
+          "Earthquake"
+        ]
+      },
+      {
+        "id": "1008",
+        "name": "Miraidon",
+        "teratype": "Fairy",
+        "ability": "Hadron Engine",
+        "item": "Choice Specs",
+        "badges": [
+          "Electro Drift",
+          "Draco Meteor",
+          "Dazzling Gleam",
+          "Volt Switch"
+        ]
+      },
+      {
+        "id": "991",
+        "name": "Iron Bundle",
+        "teratype": "Normal",
+        "ability": "Quark Drive",
+        "item": "Focus Sash",
+        "badges": [
+          "Freeze-Dry",
+          "Icy Wind",
+          "Hydro Pump",
+          "Protect"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Grass",
+        "ability": "Intimidate",
+        "item": "Assault Vest",
+        "badges": [
+          "Flare Blitz",
+          "Knock Off",
+          "Fake Out",
+          "U-turn"
+        ]
+      },
+      {
+        "id": "1000",
+        "name": "Gholdengo",
+        "teratype": "Steel",
+        "ability": "Good as Gold",
+        "item": "Leftovers",
+        "badges": [
+          "Make It Rain",
+          "Shadow Ball",
+          "Nasty Plot",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Tobias B. [AT]",
+        "result": "W",
+        "table": 11
+      },
+      "2": {
+        "name": "Gustav B. [SE]",
+        "result": "L",
+        "table": 14
+      },
+      "3": {
+        "name": "Mattia C. [IT]",
+        "result": "L",
+        "table": 18
+      },
+      "4": {
+        "name": "Matteo D. [IT]",
+        "result": "L",
+        "table": 18
+      },
+      "5": {
+        "name": "Francesca Z. [IT]",
+        "result": "L",
+        "table": 21
+      },
+      "6": {
+        "name": "Francesco G. [IT]",
+        "result": "W",
+        "table": 21
+      }
+    }
+  },
+  {
+    "name": "Cristian C. [IT]",
+    "placing": 25,
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.503333333333333,
+      "oppopp": 0.551666666666667
+    },
+    "decklist": [
+      {
+        "id": "992",
+        "name": "Iron Hands",
+        "teratype": "Fighting",
+        "ability": "Quark Drive",
+        "item": "Assault Vest",
+        "badges": [
+          "Fake Out",
+          "Drain Punch",
+          "Wild Charge",
+          "Heavy Slam"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Flying",
+        "ability": "Prankster",
+        "item": "Heavy-Duty Boots",
+        "badges": [
+          "Icy Wind",
+          "Tailwind",
+          "Hurricane",
+          "Taunt"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Grass",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Flare Blitz",
+          "Knock Off",
+          "Fake Out",
+          "Parting Shot"
+        ]
+      },
+      {
+        "id": "1000",
+        "name": "Gholdengo",
+        "teratype": "Steel",
+        "ability": "Good as Gold",
+        "item": "Choice Specs",
+        "badges": [
+          "Make It Rain",
+          "Dazzling Gleam",
+          "Power Gem",
+          "Shadow Ball"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Grass",
+        "ability": "Grassy Surge",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Wood Hammer",
+          "Bulk Up",
+          "Drum Beating",
+          "Taunt"
+        ]
+      },
+      {
+        "id": "889",
+        "name": "Zamazenta",
+        "teratype": "Water",
+        "ability": "Dauntless Shield",
+        "item": "Rusted Shield",
+        "badges": [
+          "Iron Head",
+          "Iron Defense",
+          "Wide Guard",
+          "Body Press"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Mirko D. [IT]",
+        "result": "W",
+        "table": 18
+      },
+      "2": {
+        "name": "Duc I. [IT]",
+        "result": "L",
+        "table": 10
+      },
+      "3": {
+        "name": "Julian B. [AT]",
+        "result": "L",
+        "table": 19
+      },
+      "4": {
+        "name": "Cristiano R. [IT]",
+        "result": "L",
+        "table": 17
+      },
+      "5": {
+        "name": "Tobias B. [AT]",
+        "result": "L",
+        "table": 20
+      },
+      "6": {
+        "name": "BYE",
+        "result": "W",
+        "table": 0
+      }
+    }
+  },
+  {
+    "name": "Stefano B. [IT]",
+    "placing": 26,
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.47,
+      "oppopp": 0.493888888888889
+    },
+    "decklist": [
+      {
+        "id": "992",
+        "name": "Iron Hands",
+        "teratype": "Fairy",
+        "ability": "Quark Drive",
+        "item": "Booster Energy",
+        "badges": [
+          "Detect",
+          "Fake Out",
+          "Close Combat",
+          "Ice Punch"
+        ]
+      },
+      {
+        "id": "937",
+        "name": "Ceruledge",
+        "teratype": "Water",
+        "ability": "Flash Fire",
+        "item": "Life Orb",
+        "badges": [
+          "Bitter Blade",
+          "Protect",
+          "Shadow Claw",
+          "Taunt"
+        ]
+      },
+      {
+        "id": "981",
+        "name": "Farigiraf",
+        "teratype": "Steel",
+        "ability": "Armor Tail",
+        "item": "Safety Goggles",
+        "badges": [
+          "Trick Room",
+          "Helping Hand",
+          "Protect",
+          "Psychic"
+        ]
+      },
+      {
+        "id": "423",
+        "name": "Gastrodon",
+        "teratype": "Ghost",
+        "ability": "Storm Drain",
+        "item": "Iapapa Berry",
+        "badges": [
+          "Yawn",
+          "Protect",
+          "Muddy Water",
+          "Earth Power"
+        ]
+      },
+      {
+        "id": "930",
+        "name": "Arboliva",
+        "teratype": "Normal",
+        "ability": "Seed Sower",
+        "item": "Throat Spray",
+        "badges": [
+          "Protect",
+          "Hyper Voice",
+          "Terrain Pulse",
+          "Alluring Voice"
+        ]
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Choice Specs",
+        "badges": [
+          "Tera Starstorm",
+          "Hyper Beam",
+          "Water Pulse",
+          "Dazzling Gleam"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Alessio F. [IT]",
+        "result": "L",
+        "table": 23
+      },
+      "2": {
+        "name": "Cristiano R. [IT]",
+        "result": "W",
+        "table": 20
+      },
+      "3": {
+        "name": "Matteo R. [IT]",
+        "result": "L",
+        "table": 15
+      },
+      "4": {
+        "name": "Andrea M. [IT]",
+        "result": "L",
+        "table": 21
+      },
+      "5": {
+        "name": "BYE",
+        "result": "W",
+        "table": 0
+      },
+      "6": {
+        "name": "Kai S. [ES]",
+        "result": "L",
+        "table": 20
+      }
+    }
+  },
+  {
+    "name": "Filippo S. [IT]",
+    "placing": 27,
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.333333333333333,
+      "opp": 0.388888888888889,
+      "oppopp": 0.495
+    },
+    "decklist": [
+      {
+        "id": "1002",
+        "name": "Chien-Pao",
+        "teratype": "Ice",
+        "ability": "Sword of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Icicle Crash",
+          "Sucker Punch",
+          "Protect",
+          "Ruination"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Dazzling Gleam",
+          "Shadow Ball",
+          "Moonblast",
+          "Protect"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Fire",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Grassy Glide",
+          "Fake Out",
+          "U-turn",
+          "Wood Hammer"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Ghost",
+        "ability": "Prankster",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Protect",
+          "Bleakwind Storm",
+          "Tailwind",
+          "Rain Dance"
+        ]
+      },
+      {
+        "id": "10191",
+        "name": "Urshifu [Rapid Strike Style]",
+        "teratype": "Water",
+        "ability": "Unseen Fist",
+        "item": "Mystic Water",
+        "badges": [
+          "Detect",
+          "Surging Strikes",
+          "Aqua Jet",
+          "Close Combat"
+        ]
+      },
+      {
+        "id": "888",
+        "name": "Zacian",
+        "teratype": "Fairy",
+        "ability": "Intrepid Sword",
+        "item": "Rusted Sword",
+        "badges": [
+          "Iron Head",
+          "Sacred Sword",
+          "Moonblast",
+          "Helping Hand"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Francesca Z. [IT]",
+        "result": "L",
+        "table": 9
+      },
+      "2": {
+        "name": "Tobias B. [AT]",
+        "result": "W",
+        "table": 18
+      },
+      "3": {
+        "name": "Andrea P. [IT]",
+        "result": "L",
+        "table": 16
+      },
+      "4": {
+        "name": "Alessio F. [IT]",
+        "result": "L",
+        "table": 16
+      },
+      "5": {
+        "name": "Francesco G. [IT]",
+        "result": "W",
+        "table": 19
+      },
+      "6": {
+        "name": "Matteo R. [IT]",
+        "result": "L",
+        "table": 18
+      }
+    }
+  },
+  {
+    "name": "Tobias B. [AT]",
+    "placing": 28,
+    "record": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.333333333333333,
+      "opp": 0.361111111111111,
+      "oppopp": 0.450555555555556
+    },
+    "decklist": [
+      {
+        "id": "1009",
+        "name": "Walking Wake",
+        "teratype": "Fire",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Hydro Steam",
+          "Draco Meteor",
+          "Flamethrower",
+          "Protect"
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Venusaur",
+        "teratype": "Water",
+        "ability": "Chlorophyll",
+        "item": "Wide Lens",
+        "badges": [
+          "Sludge Bomb",
+          "Sleep Powder",
+          "Giga Drain",
+          "Sweet Scent"
+        ]
+      },
+      {
+        "id": "383",
+        "name": "Groudon",
+        "teratype": "Fire",
+        "ability": "Drought",
+        "item": "Clear Amulet",
+        "badges": [
+          "Precipice Blades",
+          "Protect",
+          "Thunder Punch",
+          "Heat Crash"
+        ]
+      },
+      {
+        "id": "437",
+        "name": "Bronzong",
+        "teratype": "Fire",
+        "ability": "Levitate",
+        "item": "Leftovers",
+        "badges": [
+          "Body Press",
+          "Iron Defense",
+          "Heavy Slam",
+          "Protect"
+        ]
+      },
+      {
+        "id": "547",
+        "name": "Whimsicott",
+        "teratype": "Ghost",
+        "ability": "Prankster",
+        "item": "Focus Sash",
+        "badges": [
+          "Moonblast",
+          "Tailwind",
+          "Sunny Day",
+          "Encore"
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Charizard",
+        "teratype": "Fire",
+        "ability": "Solar Power",
+        "item": "Life Orb",
+        "badges": [
+          "Heat Wave",
+          "Flamethrower",
+          "Solar Beam",
+          "Protect"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Frankie Gabriel A. [IT]",
+        "result": "L",
+        "table": 11
+      },
+      "2": {
+        "name": "Filippo S. [IT]",
+        "result": "L",
+        "table": 18
+      },
+      "3": {
+        "name": "Francesco G. [IT]",
+        "result": "W",
+        "table": 21
+      },
+      "4": {
+        "name": "Kai S. [ES]",
+        "result": "L",
+        "table": 20
+      },
+      "5": {
+        "name": "Cristian C. [IT]",
+        "result": "W",
+        "table": 20
+      },
+      "6": {
+        "name": "Matteo D. [IT]",
+        "result": "L",
+        "table": 17
+      }
+    }
+  },
+  {
+    "name": "Francesco G. [IT]",
+    "placing": 29,
+    "record": {
+      "wins": 1,
+      "losses": 5,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 0.466666666666667,
+      "oppopp": 0.466666666666667
+    },
+    "decklist": [
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "teratype": "Stellar",
+        "ability": "Tera Shift",
+        "item": "Choice Specs",
+        "badges": [
+          "Tera Starstorm",
+          "Hyper Beam",
+          "Dark Pulse",
+          "Earth Power"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Moonblast",
+          "Icy Wind",
+          "Protect",
+          "Shadow Ball"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Fire",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Fake Out",
+          "Grassy Glide",
+          "Wood Hammer",
+          "U-turn"
+        ]
+      },
+      {
+        "id": "547",
+        "name": "Whimsicott",
+        "teratype": "Ghost",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Moonblast",
+          "Tailwind",
+          "Encore",
+          "Fake Tears"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Water",
+        "ability": "Regenerator",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Pollen Puff",
+          "Spore",
+          "Rage Powder",
+          "Sludge Bomb"
+        ]
+      },
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Focus Sash",
+        "badges": [
+          "Snarl",
+          "Dark Pulse",
+          "Heat Wave",
+          "Overheat"
+        ]
+      }
+    ],
+    "drop": -1,
+    "rounds": {
+      "1": {
+        "name": "Mattia C. [IT]",
+        "result": "L",
+        "table": 20
+      },
+      "2": {
+        "name": "Matteo R. [IT]",
+        "result": "L",
+        "table": 21
+      },
+      "3": {
+        "name": "Tobias B. [AT]",
+        "result": "L",
+        "table": 21
+      },
+      "4": {
+        "name": "BYE",
+        "result": "W",
+        "table": 0
+      },
+      "5": {
+        "name": "Filippo S. [IT]",
+        "result": "L",
+        "table": 19
+      },
+      "6": {
+        "name": "Frankie Gabriel A. [IT]",
+        "result": "L",
+        "table": 21
+      }
+    }
+  },
+  {
+    "name": "Mattia L. [IT]",
+    "placing": 30,
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 1,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "764",
+        "name": "Comfey",
+        "teratype": "Flying",
+        "ability": "Triage",
+        "item": "Aguav Berry",
+        "badges": [
+          "Floral Healing",
+          "Draining Kiss",
+          "Taunt",
+          "Trick Room"
+        ]
+      },
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Water",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Fake Out",
+          "Flare Blitz",
+          "Parting Shot",
+          "Knock Off"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Water",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Grassy Glide",
+          "Fake Out",
+          "High Horsepower",
+          "Wood Hammer"
+        ]
+      },
+      {
+        "id": "892",
+        "name": "Urshifu [Single Strike Style]",
+        "teratype": "Dark",
+        "ability": "Unseen Fist",
+        "item": "Focus Sash",
+        "badges": [
+          "Wicked Blow",
+          "Close Combat",
+          "Sucker Punch",
+          "Detect"
+        ]
+      },
+      {
+        "id": "983",
+        "name": "Kingambit",
+        "teratype": "Dragon",
+        "ability": "Defiant",
+        "item": "Black Glasses",
+        "badges": [
+          "Sucker Punch",
+          "Kowtow Cleave",
+          "Protect",
+          "Swords Dance"
+        ]
+      },
+      {
+        "id": "10273",
+        "name": "Ogerpon [Wellspring Mask]",
+        "teratype": "Water",
+        "ability": "Water Absorb",
+        "item": "Wellspring Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Spiky Shield",
+          "Grassy Glide",
+          "Follow Me"
+        ]
+      }
+    ],
+    "drop": 1,
+    "rounds": {
+      "1": {
+        "name": "Fabio I. [IT]",
+        "result": "L",
+        "table": 10
+      }
+    }
+  },
+  {
+    "name": "Alexander Vega K. [DE]",
+    "placing": 31,
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 1,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "892",
+        "name": "Urshifu [Single Strike Style]",
+        "teratype": "Poison",
+        "ability": "Unseen Fist",
+        "item": "Black Glasses",
+        "badges": [
+          "Wicked Blow",
+          "Close Combat",
+          "Detect",
+          "Sucker Punch"
+        ]
+      },
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Assault Vest",
+        "badges": [
+          "Dark Pulse",
+          "Heat Wave",
+          "Overheat",
+          "Snarl"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Steel",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Bleakwind Storm",
+          "Sunny Day",
+          "Tailwind",
+          "Protect"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Icy Wind",
+          "Taunt",
+          "Protect",
+          "Moonblast"
+        ]
+      },
+      {
+        "id": "970",
+        "name": "Glimmora",
+        "teratype": "Grass",
+        "ability": "Toxic Debris",
+        "item": "Power Herb",
+        "badges": [
+          "Spiky Shield",
+          "Meteor Beam",
+          "Sludge Bomb",
+          "Earth Power"
+        ]
+      },
+      {
+        "id": "10273",
+        "name": "Ogerpon [Wellspring Mask]",
+        "teratype": "Water",
+        "ability": "Water Absorb",
+        "item": "Wellspring Mask",
+        "badges": [
+          "Wood Hammer",
+          "Ivy Cudgel",
+          "Follow Me",
+          "Spiky Shield"
+        ]
+      }
+    ],
+    "drop": 1,
+    "rounds": {
+      "1": {
+        "name": "Kai S. [ES]",
+        "result": "L",
+        "table": 13
+      }
+    }
+  },
+  {
+    "name": "Emery P. [UK]",
+    "placing": 32,
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 1,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "teratype": "Ghost",
+        "ability": "Beads of Ruin",
+        "item": "Choice Specs",
+        "badges": [
+          "Heat Wave",
+          "Dark Pulse",
+          "Overheat",
+          "Snarl"
+        ]
+      },
+      {
+        "id": "641",
+        "name": "Tornadus [Incarnate Forme]",
+        "teratype": "Steel",
+        "ability": "Prankster",
+        "item": "Rocky Helmet",
+        "badges": [
+          "Bleakwind Storm",
+          "Tailwind",
+          "Sunny Day",
+          "Protect"
+        ]
+      },
+      {
+        "id": "892",
+        "name": "Urshifu [Single Strike Style]",
+        "teratype": "Dark",
+        "ability": "Unseen Fist",
+        "item": "Focus Sash",
+        "badges": [
+          "Wicked Blow",
+          "Sucker Punch",
+          "Close Combat",
+          "Detect"
+        ]
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "teratype": "Fairy",
+        "ability": "Protosynthesis",
+        "item": "Booster Energy",
+        "badges": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Icy Wind",
+          "Protect"
+        ]
+      },
+      {
+        "id": "763",
+        "name": "Tsareena",
+        "teratype": "Water",
+        "ability": "Queenly Majesty",
+        "item": "Wide Lens",
+        "badges": [
+          "Power Whip",
+          "Taunt",
+          "Triple Axel",
+          "Helping Hand"
+        ]
+      },
+      {
+        "id": "989",
+        "name": "Sandy Shocks",
+        "teratype": "Ice",
+        "ability": "Protosynthesis",
+        "item": "Life Orb",
+        "badges": [
+          "Thunderbolt",
+          "Earth Power",
+          "Protect",
+          "Tera Blast"
+        ]
+      }
+    ],
+    "drop": 1,
+    "rounds": {
+      "1": {
+        "name": "Leo F. [FR]",
+        "result": "L",
+        "table": 14
+      }
+    }
+  },
+  {
+    "name": "Andrea Giuseppe N. [IT]",
+    "placing": 33,
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 1,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "130",
+        "name": "Gyarados",
+        "teratype": "Steel",
+        "ability": "Intimidate",
+        "item": "Aguav Berry",
+        "badges": [
+          "Waterfall",
+          "Crunch",
+          "Taunt",
+          "Protect"
+        ]
+      },
+      {
+        "id": "553",
+        "name": "Krookodile",
+        "teratype": "Stellar",
+        "ability": "Intimidate",
+        "item": "Power Lens",
+        "badges": [
+          "Breaking Swipe",
+          "Sludge Bomb",
+          "Stealth Rock",
+          "Outrage"
+        ]
+      },
+      {
+        "id": "445",
+        "name": "Garchomp",
+        "teratype": "Stellar",
+        "ability": "Sand Veil",
+        "item": "Power Bracer",
+        "badges": [
+          "Liquidation",
+          "Sandstorm",
+          "Surf",
+          "Poison Jab"
+        ]
+      },
+      {
+        "id": "10273",
+        "name": "Ogerpon [Wellspring Mask]",
+        "teratype": "Water",
+        "ability": "Water Absorb",
+        "item": "Wellspring Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Play Rough",
+          "Spikes",
+          "Grass Knot"
+        ]
+      },
+      {
+        "id": "1018",
+        "name": "Archaludon",
+        "teratype": "Steel",
+        "ability": "Sturdy",
+        "item": "Assault Vest",
+        "badges": [
+          "Thunder Wave",
+          "Flash Cannon",
+          "Electro Shot",
+          "Facade"
+        ]
+      },
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Grass",
+        "ability": "Grassy Surge",
+        "item": "Grassy Seed",
+        "badges": [
+          "Protect",
+          "Grassy Glide",
+          "Wood Hammer",
+          "U-turn"
+        ]
+      }
+    ],
+    "drop": 1,
+    "rounds": {
+      "1": {
+        "name": "Niccolò R. [IT]",
+        "result": "L",
+        "table": 15
+      }
+    }
+  },
+  {
+    "name": "Lasse F. [DE]",
+    "placing": 34,
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 1,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "423",
+        "name": "Gastrodon",
+        "teratype": "Normal",
+        "ability": "Storm Drain",
+        "item": "Passho Berry",
+        "badges": [
+          "Stealth Rock",
+          "Tera Blast",
+          "Ancient Power",
+          "Protect"
+        ]
+      },
+      {
+        "id": "1007",
+        "name": "Koraidon",
+        "teratype": "Normal",
+        "ability": "Orichalcum Pulse",
+        "item": "Heavy-Duty Boots",
+        "badges": [
+          "Tera Blast",
+          "U-turn",
+          "Dragon Tail",
+          "Uproar"
+        ]
+      },
+      {
+        "id": "316",
+        "name": "Gulpin",
+        "teratype": "Normal",
+        "ability": "Sticky Hold",
+        "item": "Eviolite",
+        "badges": [
+          "Venoshock",
+          "Encore",
+          "Rain Dance",
+          ""
+        ]
+      },
+      {
+        "id": "985",
+        "name": "Scream Tail",
+        "teratype": "Normal",
+        "ability": "Protosynthesis",
+        "item": "Mental Herb",
+        "badges": [
+          "Perish Song",
+          "Encore",
+          "Noble Roar",
+          ""
+        ]
+      },
+      {
+        "id": "1022",
+        "name": "Iron Boulder",
+        "teratype": "Normal",
+        "ability": "Quark Drive",
+        "item": "Booster Energy",
+        "badges": [
+          "Mighty Cleave",
+          "Agility",
+          "X-Scissor",
+          ""
+        ]
+      },
+      {
+        "id": "162",
+        "name": "Furret",
+        "teratype": "Normal",
+        "ability": "Keen Eye",
+        "item": "Assault Vest",
+        "badges": [
+          "Double-Edge",
+          "Uproar",
+          "Defense Curl",
+          "U-turn"
+        ]
+      }
+    ],
+    "drop": 1,
+    "rounds": {
+      "1": {
+        "name": "Matteo D. [IT]",
+        "result": "L",
+        "table": 16
+      }
+    }
+  },
+  {
+    "name": "Adrien G. [FR]",
+    "placing": 35,
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 1,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "727",
+        "name": "Incineroar",
+        "teratype": "Ghost",
+        "ability": "Intimidate",
+        "item": "Safety Goggles",
+        "badges": [
+          "Fake Out",
+          "Flare Blitz",
+          "Will-O-Wisp",
+          "Knock Off"
+        ]
+      },
+      {
+        "id": "784",
+        "name": "Kommo-o",
+        "teratype": "Steel",
+        "ability": "Overcoat",
+        "item": "Leftovers",
+        "badges": [
+          "Protect",
+          "Iron Defense",
+          "Iron Head",
+          "Body Press"
+        ]
+      },
+      {
+        "id": 898,
+        "name": "Calyrex [Shadow Rider]",
+        "teratype": "Fairy",
+        "ability": "As One",
+        "item": "Focus Sash",
+        "badges": [
+          "Astral Barrage",
+          "Draining Kiss",
+          "Nasty Plot",
+          "Protect"
+        ]
+      },
+      {
+        "id": "642",
+        "name": "Thundurus [Incarnate Forme]",
+        "teratype": "Steel",
+        "ability": "Prankster",
+        "item": "Covert Cloak",
+        "badges": [
+          "Taunt",
+          "Eerie Impulse",
+          "Protect",
+          "Tera Blast"
+        ]
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "teratype": "Water",
+        "ability": "Effect Spore",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Rage Powder",
+          "Spore",
+          "Pollen Puff",
+          "Protect"
+        ]
+      },
+      {
+        "id": "10273",
+        "name": "Ogerpon [Wellspring Mask]",
+        "teratype": "Water",
+        "ability": "Water Absorb",
+        "item": "Wellspring Mask",
+        "badges": [
+          "Ivy Cudgel",
+          "Horn Leech",
+          "Spiky Shield",
+          "Follow Me"
+        ]
+      }
+    ],
+    "drop": 1,
+    "rounds": {
+      "1": {
+        "name": "Julian B. [AT]",
+        "result": "L",
+        "table": 17
+      }
+    }
+  },
+  {
+    "name": "Mirko D. [IT]",
+    "placing": 36,
+    "record": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "resistances": {
+      "self": 0.25,
+      "opp": 1,
+      "oppopp": 0.25
+    },
+    "decklist": [
+      {
+        "id": "812",
+        "name": "Rillaboom",
+        "teratype": "Fire",
+        "ability": "Grassy Surge",
+        "item": "Assault Vest",
+        "badges": [
+          "Grassy Glide",
+          "U-turn",
+          "Taunt",
+          "Fake Out"
+        ]
+      },
+      {
+        "id": "212",
+        "name": "Scizor",
+        "teratype": "Fire",
+        "ability": "Technician",
+        "item": "Clear Amulet",
+        "badges": [
+          "Bullet Punch",
+          "Dual Wingbeat",
+          "Bounce",
+          "Protect"
+        ]
+      },
+      {
+        "id": "131",
+        "name": "Lapras",
+        "teratype": "Ghost",
+        "ability": "Shell Armor",
+        "item": "Leftovers",
+        "badges": [
+          "Helping Hand",
+          "Icy Wind",
+          "Life Dew",
+          "Dragon Cheer"
+        ]
+      },
+      {
+        "id": "10191",
+        "name": "Urshifu [Rapid Strike Style]",
+        "teratype": "Water",
+        "ability": "Unseen Fist",
+        "item": "Focus Sash",
+        "badges": [
+          "Surging Strikes",
+          "Detect",
+          "Aqua Jet",
+          "U-turn"
+        ]
+      },
+      {
+        "id": "59",
+        "name": "Arcanine",
+        "teratype": "Grass",
+        "ability": "Intimidate",
+        "item": "Sitrus Berry",
+        "badges": [
+          "Extreme Speed",
+          "Snarl",
+          "Will-O-Wisp",
+          "Flare Blitz"
+        ]
+      },
+      {
+        "id": "1006",
+        "name": "Iron Valiant",
+        "teratype": "Steel",
+        "ability": "Quark Drive",
+        "item": "Booster Energy",
+        "badges": [
+          "Protect",
+          "Spirit Break",
+          "Close Combat",
+          "Psycho Cut"
+        ]
+      }
+    ],
+    "drop": 1,
+    "rounds": {
+      "1": {
+        "name": "Cristian C. [IT]",
+        "result": "L",
+        "table": 18
+      }
+    }
+  }
+]
