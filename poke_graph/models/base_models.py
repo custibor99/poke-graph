@@ -11,7 +11,7 @@ class Stats:
     sp_defense: int
 
     @classmethod
-    def from_dict(cls, data):
+    def from_api_dict(cls, data):
         hp = 0
         attack = 0
         defense = 0
@@ -48,7 +48,7 @@ class Pokemon:
     stats: Stats
 
     @classmethod
-    def from_dict(cls, data):
+    def from_api_dict(cls, data):
         name = data["name"]
         abilities = [ el["ability"]["name"] for el in data["abilities"]]
         moves = [ el["move"]["name"] for el in data["moves"]]
@@ -92,13 +92,12 @@ class Move:
     stat_changes: dict = field(default_factory=dict)
 
     @classmethod
-    def from_dict(cls, data):
+    def from_api_dict(cls, data):
         stat_changes = {
             el["stat"]["name"]:el["change"]
             for el in data["stat_changes"]
         }
-        try:
-            return Move(
+        return Move(
             name = data["name"],
             move_type = data["type"]["name"],
             pp = data["pp"],
@@ -106,14 +105,28 @@ class Move:
             priority = data["priority"],
             damage_class = data["damage_class"]["name"],
             power = data["power"] if data["power"] != None else 0,
-            crit_rate=data["meta"].get("crit_rate", 0),
-            drain = data["meta"]["drain"],
-            flinch_chance=data["meta"]["flinch_chance"],
-            healing = data["meta"]["healing"],
+            crit_rate=data["meta"]["crit_rate"] if data["meta"] != None else 0,
+            drain = data["meta"]["drain"] if data["meta"] != None else 0,
+            flinch_chance=data["meta"]["flinch_chance"] if data["meta"] != None else 0,
+            healing = data["meta"]["healing"] if data["meta"] != None else 0,
             stat_changes=stat_changes,
         )
-        except:
-            print(data["name"]) #example pounce
+       
+@dataclass
+class Item:
+    name: str
+    attributes: list[str]
+    category: str
+
+    @classmethod
+    def from_api_dict(cls, data):
+        return Item(
+            name = data["name"],
+            attributes = [el["name"] for el in data["attributes"]],
+            category = data["category"]["name"],
+        )
+
+
      
 
 
