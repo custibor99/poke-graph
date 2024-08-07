@@ -1,9 +1,10 @@
 import requests
 import functools
 
-from typing import Optional
 from poke_graph.models.base_models import Pokemon, Type, Move, Item
 from tqdm import tqdm
+import cattrs
+import json
 
 class PokemonApiClient:
     def __init__(self, base_url:str = "https://pokeapi.co/api/v2/"):
@@ -79,6 +80,21 @@ class PokemonApiClient:
 
 def main():
     client = PokemonApiClient()
-    print(client.getAllItems())
+    #Get pokemon
+    entity = client.getPokemonByName("magnemite")
+    print(entity.to_json_string())
+
+    #Get move
+    entity = client.getMoveByName("pound")
+    print(entity.to_json_string())
+
+    #Get move
+    entity = client.getItemByName("nugget")
+    print(entity.to_json_string())
+
+    #Get ability
+    entity = client.getTypeByName("fire")
+    print(entity.to_json_string())
+
 if __name__=="__main__":
     main()

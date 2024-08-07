@@ -1,8 +1,25 @@
 from dataclasses import dataclass, field
-from enum import Enum
+import cattrs
+import json
+
+class PokemonEntityBase:
+    @classmethod
+    def from_api_dict(cls, data):
+        raise NotImplementedError
+    
+    @classmethod
+    def load(cls, filepath: str):
+        raise NotImplementedError
+    
+    def save(filepath: str):
+        raise NotImplementedError
+    
+    def to_json_string(self) -> str:
+        return json.dumps(cattrs.unstructure(self), indent=2)
+
 
 @dataclass
-class Stats:
+class Stats(PokemonEntityBase):
     hp: int
     attack: int
     defense: int
@@ -39,7 +56,7 @@ class Stats:
         return self.hp + self.attack + self.sp_attack + self.defense + self.sp_defense + self.speed
 
 @dataclass
-class Pokemon:
+class Pokemon(PokemonEntityBase):
     name: str
     abilities: list[str]
     moves: list[str]
@@ -54,19 +71,19 @@ class Pokemon:
         moves = [ el["move"]["name"] for el in data["moves"]]
         types = [ el["type"]["name"] for el in data["types"]]
         weight = data["weight"]
-        stats = Stats.from_dict(data["stats"])
+        stats = Stats.from_api_dict(data["stats"])
         return Pokemon(name, abilities, moves, types, weight, stats)
     
 
 @dataclass
-class Type:
+class Type(PokemonEntityBase):
     name: str
     double_damage_to: list[str]
     half_damage_to: list[str]
     no_damage_to: list[str]
 
     @classmethod
-    def from_dict(cls, data):
+    def from_api_dict(cls, data):
         relations = data["damage_relations"]
         return Type(
             name=data["name"],
@@ -76,7 +93,7 @@ class Type:
         )
 
 @dataclass
-class Move:
+class Move(PokemonEntityBase):
     name: str
     move_type: str
     pp: int
@@ -113,7 +130,7 @@ class Move:
         )
        
 @dataclass
-class Item:
+class Item(PokemonEntityBase):
     name: str
     attributes: list[str]
     category: str
@@ -125,6 +142,7 @@ class Item:
             attributes = [el["name"] for el in data["attributes"]],
             category = data["category"]["name"],
         )
+    
 
 
      
