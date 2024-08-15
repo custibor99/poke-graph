@@ -1,0 +1,453 @@
+@prefix : <urn:webprotege:ontology:a66eac20-5fdb-4f52-a12f-a4005673cbe6#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:a66eac20-5fdb-4f52-a12f-a4005673cbe6> .
+
+<urn:webprotege:ontology:a66eac20-5fdb-4f52-a12f-a4005673cbe6> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/competed
+<http://webprotege.stanford.edu/competed> rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf owl:topObjectProperty ;
+                                          rdfs:domain <http://webprotege.stanford.edu/Team> ;
+                                          rdfs:range <http://webprotege.stanford.edu/Competition> ;
+                                          rdfs:label "competed" .
+
+
+###  http://webprotege.stanford.edu/double_damage
+<http://webprotege.stanford.edu/double_damage> rdf:type owl:ObjectProperty ;
+                                               rdfs:subPropertyOf owl:topObjectProperty ;
+                                               rdfs:domain <http://webprotege.stanford.edu/Type> ;
+                                               rdfs:range <http://webprotege.stanford.edu/Type> ;
+                                               rdfs:label "double_damage" .
+
+
+###  http://webprotege.stanford.edu/gets_ability
+<http://webprotege.stanford.edu/gets_ability> rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                              rdfs:domain <http://webprotege.stanford.edu/Pokemon> ;
+                                              rdfs:range <http://webprotege.stanford.edu/Ability> ;
+                                              rdfs:label "gets_ability" .
+
+
+###  http://webprotege.stanford.edu/half_damage
+<http://webprotege.stanford.edu/half_damage> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://webprotege.stanford.edu/Type> ;
+                                             rdfs:range <http://webprotege.stanford.edu/Type> ;
+                                             rdfs:label "half_damage" .
+
+
+###  http://webprotege.stanford.edu/has_ability
+<http://webprotege.stanford.edu/has_ability> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://webprotege.stanford.edu/TeamMember> ;
+                                             rdfs:range <http://webprotege.stanford.edu/Ability> ;
+                                             rdfs:label "has_ability" .
+
+
+###  http://webprotege.stanford.edu/holds
+<http://webprotege.stanford.edu/holds> rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                       rdfs:domain <http://webprotege.stanford.edu/TeamMember> ;
+                                       rdfs:range <http://webprotege.stanford.edu/Item> ;
+                                       rdfs:label "holds" .
+
+
+###  http://webprotege.stanford.edu/knows
+<http://webprotege.stanford.edu/knows> rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                       rdfs:domain <http://webprotege.stanford.edu/TeamMember> ;
+                                       rdfs:range <http://webprotege.stanford.edu/Move> ;
+                                       rdfs:label "knows" .
+
+
+###  http://webprotege.stanford.edu/learns
+<http://webprotege.stanford.edu/learns> rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                        rdfs:domain <http://webprotege.stanford.edu/Pokemon> ;
+                                        rdfs:range <http://webprotege.stanford.edu/Move> ;
+                                        rdfs:label "learns" .
+
+
+###  http://webprotege.stanford.edu/lost
+<http://webprotege.stanford.edu/lost> rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                      rdfs:domain <http://webprotege.stanford.edu/Team> ;
+                                      rdfs:range <http://webprotege.stanford.edu/Set> ;
+                                      rdfs:label "lost" .
+
+
+###  http://webprotege.stanford.edu/member
+<http://webprotege.stanford.edu/member> rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                        rdfs:domain <http://webprotege.stanford.edu/TeamMember> ;
+                                        rdfs:range <http://webprotege.stanford.edu/Team> ;
+                                        rdfs:label "member" .
+
+
+###  http://webprotege.stanford.edu/no_damage
+<http://webprotege.stanford.edu/no_damage> rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                           rdfs:domain <http://webprotege.stanford.edu/Type> ;
+                                           rdfs:range <http://webprotege.stanford.edu/Type> ;
+                                           rdfs:label "no_damage" .
+
+
+###  http://webprotege.stanford.edu/of_type
+<http://webprotege.stanford.edu/of_type> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                         rdfs:domain <http://webprotege.stanford.edu/Move> ,
+                                                     <http://webprotege.stanford.edu/Pokemon> ;
+                                         rdfs:range <http://webprotege.stanford.edu/Type> ;
+                                         rdfs:label "of_type" .
+
+
+###  http://webprotege.stanford.edu/origin
+<http://webprotege.stanford.edu/origin> rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                        rdfs:domain <http://webprotege.stanford.edu/Player> ;
+                                        rdfs:range <http://webprotege.stanford.edu/Country> ;
+                                        rdfs:label "origin" .
+
+
+###  http://webprotege.stanford.edu/played_with
+<http://webprotege.stanford.edu/played_with> rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                             rdfs:domain <http://webprotege.stanford.edu/Player> ;
+                                             rdfs:range <http://webprotege.stanford.edu/Team> ;
+                                             rdfs:label "played_with" .
+
+
+###  http://webprotege.stanford.edu/species
+<http://webprotege.stanford.edu/species> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                         rdfs:domain <http://webprotege.stanford.edu/TeamMember> ;
+                                         rdfs:range <http://webprotege.stanford.edu/Pokemon> ;
+                                         rdfs:label "species" .
+
+
+###  http://webprotege.stanford.edu/tera_type
+<http://webprotege.stanford.edu/tera_type> rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf owl:topObjectProperty ;
+                                           rdfs:domain <http://webprotege.stanford.edu/TeamMember> ;
+                                           rdfs:range <http://webprotege.stanford.edu/Type> .
+
+
+###  http://webprotege.stanford.edu/won
+<http://webprotege.stanford.edu/won> rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf owl:topObjectProperty ;
+                                     rdfs:domain <http://webprotege.stanford.edu/Team> ;
+                                     rdfs:range <http://webprotege.stanford.edu/Set> ;
+                                     rdfs:label "won" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://webprotege.stanford.edu/CompetitionProperties
+<http://webprotege.stanford.edu/CompetitionProperties> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                       rdfs:label "CompetitionProperties" .
+
+
+###  http://webprotege.stanford.edu/MoveProperties
+<http://webprotege.stanford.edu/MoveProperties> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                rdfs:label "MoveProperties" .
+
+
+###  http://webprotege.stanford.edu/PlayerProperties
+<http://webprotege.stanford.edu/PlayerProperties> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                  rdfs:label "PlayerProperties" .
+
+
+###  http://webprotege.stanford.edu/PokemonProperties
+<http://webprotege.stanford.edu/PokemonProperties> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                   rdfs:label "PokemonProperties" .
+
+
+###  http://webprotege.stanford.edu/TeamProperties
+<http://webprotege.stanford.edu/TeamProperties> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                rdfs:label "TeamProperties" .
+
+
+###  http://webprotege.stanford.edu/accuracy
+<http://webprotege.stanford.edu/accuracy> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://webprotege.stanford.edu/MoveProperties> ;
+                                          rdfs:domain <http://webprotege.stanford.edu/Move> ;
+                                          rdfs:range xsd:float ;
+                                          rdfs:label "accuracy" .
+
+
+###  http://webprotege.stanford.edu/attack
+<http://webprotege.stanford.edu/attack> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://webprotege.stanford.edu/stats> ;
+                                        rdfs:domain <http://webprotege.stanford.edu/Pokemon> ;
+                                        rdfs:range xsd:positiveInteger ;
+                                        rdfs:label "attack" .
+
+
+###  http://webprotege.stanford.edu/defense
+<http://webprotege.stanford.edu/defense> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/stats> ;
+                                         rdfs:label "defense" .
+
+
+###  http://webprotege.stanford.edu/description
+<http://webprotege.stanford.edu/description> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                             rdfs:domain <http://webprotege.stanford.edu/Ability> ,
+                                                         <http://webprotege.stanford.edu/Competition> ,
+                                                         <http://webprotege.stanford.edu/Item> ,
+                                                         <http://webprotege.stanford.edu/Move> ;
+                                             rdfs:range xsd:string ;
+                                             rdfs:label "description" .
+
+
+###  http://webprotege.stanford.edu/drain
+<http://webprotege.stanford.edu/drain> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://webprotege.stanford.edu/MoveProperties> ;
+                                       rdfs:domain <http://webprotege.stanford.edu/Move> ;
+                                       rdfs:range xsd:float ;
+                                       rdfs:label "drain" .
+
+
+###  http://webprotege.stanford.edu/effecte_chance
+<http://webprotege.stanford.edu/effecte_chance> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://webprotege.stanford.edu/MoveProperties> ;
+                                                rdfs:domain <http://webprotege.stanford.edu/Move> ;
+                                                rdfs:range xsd:float ;
+                                                rdfs:label "effecte_chance" .
+
+
+###  http://webprotege.stanford.edu/end_date
+<http://webprotege.stanford.edu/end_date> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://webprotege.stanford.edu/CompetitionProperties> ;
+                                          rdfs:domain <http://webprotege.stanford.edu/Competition> ;
+                                          rdfs:range xsd:dateTime ;
+                                          rdfs:label "end_date" .
+
+
+###  http://webprotege.stanford.edu/first_name
+<http://webprotege.stanford.edu/first_name> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://webprotege.stanford.edu/PlayerProperties> ;
+                                            rdfs:domain <http://webprotege.stanford.edu/Player> ;
+                                            rdfs:range xsd:string ;
+                                            rdfs:label "first_name" .
+
+
+###  http://webprotege.stanford.edu/flinch_chance
+<http://webprotege.stanford.edu/flinch_chance> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://webprotege.stanford.edu/MoveProperties> ;
+                                               rdfs:domain <http://webprotege.stanford.edu/Move> ;
+                                               rdfs:range xsd:float ;
+                                               rdfs:label "flinch_chance" .
+
+
+###  http://webprotege.stanford.edu/healing
+<http://webprotege.stanford.edu/healing> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/MoveProperties> ;
+                                         rdfs:domain <http://webprotege.stanford.edu/Move> ;
+                                         rdfs:range xsd:float ;
+                                         rdfs:label "healing" .
+
+
+###  http://webprotege.stanford.edu/hp
+<http://webprotege.stanford.edu/hp> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://webprotege.stanford.edu/stats> ;
+                                    rdfs:domain <http://webprotege.stanford.edu/Pokemon> ;
+                                    rdfs:range xsd:positiveInteger ;
+                                    rdfs:label "hp" .
+
+
+###  http://webprotege.stanford.edu/last_name
+<http://webprotege.stanford.edu/last_name> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://webprotege.stanford.edu/PlayerProperties> ;
+                                           rdfs:domain <http://webprotege.stanford.edu/Player> ;
+                                           rdfs:range xsd:string ;
+                                           rdfs:label "last_name" .
+
+
+###  http://webprotege.stanford.edu/losses
+<http://webprotege.stanford.edu/losses> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://webprotege.stanford.edu/TeamProperties> ;
+                                        rdfs:domain <http://webprotege.stanford.edu/Team> ;
+                                        rdfs:range xsd:positiveInteger ;
+                                        rdfs:label "losses" .
+
+
+###  http://webprotege.stanford.edu/power
+<http://webprotege.stanford.edu/power> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://webprotege.stanford.edu/MoveProperties> ;
+                                       rdfs:domain <http://webprotege.stanford.edu/Move> ;
+                                       rdfs:range xsd:positiveInteger ;
+                                       rdfs:label "power" .
+
+
+###  http://webprotege.stanford.edu/pp
+<http://webprotege.stanford.edu/pp> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://webprotege.stanford.edu/MoveProperties> ;
+                                    rdfs:domain <http://webprotege.stanford.edu/Move> ;
+                                    rdfs:range xsd:positiveInteger ;
+                                    rdfs:label "pp" .
+
+
+###  http://webprotege.stanford.edu/priority
+<http://webprotege.stanford.edu/priority> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://webprotege.stanford.edu/MoveProperties> ;
+                                          rdfs:domain <http://webprotege.stanford.edu/Move> ;
+                                          rdfs:range xsd:positiveInteger ;
+                                          rdfs:label "priority" .
+
+
+###  http://webprotege.stanford.edu/sp_attack
+<http://webprotege.stanford.edu/sp_attack> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://webprotege.stanford.edu/stats> ;
+                                           rdfs:domain <http://webprotege.stanford.edu/Pokemon> ;
+                                           rdfs:range xsd:positiveInteger ;
+                                           rdfs:label "sp_attack" .
+
+
+###  http://webprotege.stanford.edu/sp_defense
+<http://webprotege.stanford.edu/sp_defense> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://webprotege.stanford.edu/stats> ;
+                                            rdfs:domain <http://webprotege.stanford.edu/Pokemon> ;
+                                            rdfs:range xsd:positiveInteger ;
+                                            rdfs:label "sp_defense" .
+
+
+###  http://webprotege.stanford.edu/speed
+<http://webprotege.stanford.edu/speed> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://webprotege.stanford.edu/stats> ;
+                                       rdfs:domain <http://webprotege.stanford.edu/Pokemon> ;
+                                       rdfs:range xsd:positiveInteger ;
+                                       rdfs:label "speed" .
+
+
+###  http://webprotege.stanford.edu/start_date
+<http://webprotege.stanford.edu/start_date> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://webprotege.stanford.edu/CompetitionProperties> ;
+                                            rdfs:domain <http://webprotege.stanford.edu/Competition> ;
+                                            rdfs:range xsd:dateTime ;
+                                            rdfs:label "start_date" .
+
+
+###  http://webprotege.stanford.edu/stats
+<http://webprotege.stanford.edu/stats> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://webprotege.stanford.edu/PokemonProperties> ;
+                                       rdfs:label "stats" .
+
+
+###  http://webprotege.stanford.edu/ties
+<http://webprotege.stanford.edu/ties> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://webprotege.stanford.edu/TeamProperties> ;
+                                      rdfs:domain <http://webprotege.stanford.edu/Team> ;
+                                      rdfs:range xsd:positiveInteger ;
+                                      rdfs:label "ties" .
+
+
+###  http://webprotege.stanford.edu/weight
+<http://webprotege.stanford.edu/weight> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://webprotege.stanford.edu/PokemonProperties> ;
+                                        rdfs:domain <http://webprotege.stanford.edu/Pokemon> ;
+                                        rdfs:range xsd:float ;
+                                        rdfs:label "weight" .
+
+
+###  http://webprotege.stanford.edu/wins
+<http://webprotege.stanford.edu/wins> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://webprotege.stanford.edu/TeamProperties> ;
+                                      rdfs:domain <http://webprotege.stanford.edu/Team> ;
+                                      rdfs:range xsd:positiveInteger ;
+                                      rdfs:label "wins" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/Ability
+<http://webprotege.stanford.edu/Ability> rdf:type owl:Class ;
+                                         rdfs:label "Ability" .
+
+
+###  http://webprotege.stanford.edu/Competition
+<http://webprotege.stanford.edu/Competition> rdf:type owl:Class ;
+                                             rdfs:label "Competition" .
+
+
+###  http://webprotege.stanford.edu/Country
+<http://webprotege.stanford.edu/Country> rdf:type owl:Class ;
+                                         rdfs:label "Country" .
+
+
+###  http://webprotege.stanford.edu/Item
+<http://webprotege.stanford.edu/Item> rdf:type owl:Class ;
+                                      rdfs:label "Item" .
+
+
+###  http://webprotege.stanford.edu/Move
+<http://webprotege.stanford.edu/Move> rdf:type owl:Class ;
+                                      rdfs:label "Move" .
+
+
+###  http://webprotege.stanford.edu/PhysicalMove
+<http://webprotege.stanford.edu/PhysicalMove> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://webprotege.stanford.edu/Move> ;
+                                              rdfs:label "Physical Move" .
+
+
+###  http://webprotege.stanford.edu/Player
+<http://webprotege.stanford.edu/Player> rdf:type owl:Class ;
+                                        rdfs:label "Player" .
+
+
+###  http://webprotege.stanford.edu/Pokemon
+<http://webprotege.stanford.edu/Pokemon> rdf:type owl:Class ;
+                                         rdfs:label "Pokemon" .
+
+
+###  http://webprotege.stanford.edu/Set
+<http://webprotege.stanford.edu/Set> rdf:type owl:Class ;
+                                     rdfs:label "Set" .
+
+
+###  http://webprotege.stanford.edu/SpecialMove
+<http://webprotege.stanford.edu/SpecialMove> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://webprotege.stanford.edu/Move> ;
+                                             rdfs:label "Special Move" .
+
+
+###  http://webprotege.stanford.edu/StatusMove
+<http://webprotege.stanford.edu/StatusMove> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://webprotege.stanford.edu/Move> ;
+                                            rdfs:label "Status Move" .
+
+
+###  http://webprotege.stanford.edu/Team
+<http://webprotege.stanford.edu/Team> rdf:type owl:Class ;
+                                      rdfs:label "Team" .
+
+
+###  http://webprotege.stanford.edu/TeamMember
+<http://webprotege.stanford.edu/TeamMember> rdf:type owl:Class ;
+                                            rdfs:label "TeamMember" .
+
+
+###  http://webprotege.stanford.edu/Type
+<http://webprotege.stanford.edu/Type> rdf:type owl:Class ;
+                                      rdfs:label "Type" .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
