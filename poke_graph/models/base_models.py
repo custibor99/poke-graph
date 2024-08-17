@@ -117,7 +117,7 @@ class Move(PokemonEntityBase):
         return Move(
             name = data["name"],
             move_type = data["type"]["name"],
-            pp = data["pp"],
+            pp = data["pp"] if data["pp"] is not None else 40,
             accuracy = data["accuracy"] if data["accuracy"] is not None else 100,
             priority = data["priority"],
             damage_class = data["damage_class"]["name"],
