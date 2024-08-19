@@ -58,6 +58,35 @@ class TurtleWriter:
         res += self.write_triplet(subject, "rdf:type", "owl:NamedIndividual")
         res += self.write_triplet(subject, "rdf:type", f"<{self.prefix}/Pokemon>")
 
+        #object properties
+        #types
+        for t in pokemon.types:
+            t = t.lower()
+            res += self.write_triplet(subject, f"<{self.prefix}/of_type>", f"<{self.prefix}/{t}>")
+
+        #moves
+        for move in pokemon.moves:
+            move = move.lower().replace(" ", "-")
+            res += self.write_triplet(subject, f"<{self.prefix}/learns>", f"<{self.prefix}/{move}>")
+
+        #abilities
+        for ability in pokemon.abilities:
+            ability = ability.lower().replace(" ", "-")
+            res += self.write_triplet(subject, f"<{self.prefix}/gets_ability>", f"<{self.prefix}/{ability}>")
+            res += self.write_triplet(f"<{self.prefix}/{ability}>", "rdf:type", "owl:NamedIndividual")
+            res += self.write_triplet(f"<{self.prefix}/{ability}>", "rdf:type", f"<{self.prefix}/Ability>")
+
+        #data properties
+        res += self.write_triplet(subject, f"<{self.prefix}/weight>", pokemon.weight)
+        res += self.write_triplet(subject, f"<{self.prefix}/attack>", pokemon.stats.attack)
+        res += self.write_triplet(subject, f"<{self.prefix}/defense>", pokemon.stats.defense)
+        res += self.write_triplet(subject, f"<{self.prefix}/speed>", pokemon.stats.speed)
+        res += self.write_triplet(subject, f"<{self.prefix}/hp>", pokemon.stats.hp)
+        res += self.write_triplet(subject, f"<{self.prefix}/sp_attack>", pokemon.stats.sp_attack)
+        res += self.write_triplet(subject, f"<{self.prefix}/sp_defense>", pokemon.stats.sp_defense)
+
+        return res
+
 
 
 
