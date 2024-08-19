@@ -1,6 +1,6 @@
 from poke_graph.clients.pokemonapi_client import PokemonApiClient
 from poke_graph.models.base_models import Type
-from poke_graph.turtlewritter.writers import TypeWritter, MoveWritter
+from poke_graph.tripletWritters.turtleWritter import TurtleWriter
 
 import os
 
@@ -13,37 +13,34 @@ def remove_ttl_files():
     for file in ttl_files:
         if os.path.exists(file):
             os.remove(file)
-
-
-def write_ttl_moves_file(client:PokemonApiClient):
-    typeWritter = MoveWritter("http://webprotege.stanford.edu")
-    moves = client.getAllMoves()
-    ttls = ""
-
-    for el in moves:
-        ttls += typeWritter.write_move_triplets(el)
-
-    with open(TTL_MOVES_FILE, "w") as file:
-        file.write(ttls)
-
-
-def write_ttl_types_file(client:PokemonApiClient):
-    typeWritter = TypeWritter("http://webprotege.stanford.edu")
-    all_types = client.getAllTypes()
-    types_ttl = ""
-
-    for type in all_types:
-        types_ttl += typeWritter.write_type_triplets(type)
-
-    with open(TTL_TYPES_FILE, "w") as file:
-        file.write(types_ttl)
+def write_ttl_to_file(ttl: str, filepath:str):
+    with open(filepath, "w") as file:
+        file.write(ttl)
 
 
 
 def main():
     client = PokemonApiClient()
-    #write_ttl_types_file(client)
-    write_ttl_moves_file(client)
+    writer = TurtleWriter("http://webprotege.stanford.edu")
+
+    
+
+    moves = client.getAllMoves()
+    moves_ttl = "\n".join([
+        writer.write_move_triplets(move)
+        for move in moves
+    ])
+    write_ttl_to_file(moves_ttl, TTL_MOVES_FILE)
+
+    types = client.getAllTypes()
+    types_ttl = "\n".join([
+        writer.write_type_triplets(t)
+        for t in types
+    ])
+    write_ttl_to_file(types_ttl, TTL_TYPES_FILE)
+
+
+    
 if __name__ == "__main__":
     main()
 
