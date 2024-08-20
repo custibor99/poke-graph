@@ -1,4 +1,4 @@
-from poke_graph.models.base_models import Type, Move, Pokemon
+from poke_graph.models.base_models import Type, Move, Pokemon, Item
 
 class TurtleWriter:
     def __init__(self, prefix):
@@ -84,6 +84,17 @@ class TurtleWriter:
         res += self.write_triplet(subject, f"<{self.prefix}/hp>", pokemon.stats.hp)
         res += self.write_triplet(subject, f"<{self.prefix}/sp_attack>", pokemon.stats.sp_attack)
         res += self.write_triplet(subject, f"<{self.prefix}/sp_defense>", pokemon.stats.sp_defense)
+
+        return res
+
+
+    def write_item_triplets(self, item:Item):
+        item_name = item.name.lower().replace(" ", "-")
+        subject = f"<{self.prefix}/{item_name}>"
+
+        res = ""
+        res += self.write_triplet(subject, "rdf:type", "owl:NamedIndividual")
+        res += self.write_triplet(subject, "rdf:type", f"<{self.prefix}/Item>")
 
         return res
 

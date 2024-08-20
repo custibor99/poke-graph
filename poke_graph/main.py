@@ -7,11 +7,13 @@ import os
 TTL_TYPES_FILE = "data/types.ttl"
 TTL_MOVES_FILE = "data/moves.ttl"
 TTL_POKEMON_FILE = "data/pokemon.ttl"
+TTL_ITEM_FILE = "data/item.ttl"
+
 
 
 
 def remove_ttl_files():
-    ttl_files = [TTL_TYPES_FILE, TTL_MOVES_FILE, TTL_POKEMON_FILE]
+    ttl_files = [TTL_TYPES_FILE, TTL_MOVES_FILE, TTL_POKEMON_FILE, TTL_ITEM_FILE]
     for file in ttl_files:
         if os.path.exists(file):
             os.remove(file)
@@ -42,16 +44,23 @@ def main():
         for t in types
     ])
     write_ttl_to_file(types_ttl, TTL_TYPES_FILE)
-    """
+    
     #pokemon and abilities
     pokemon = client.getAllPokemon()
-    print(pokemon)
     pokemon_ttl = "\n".join([
         writer.writte_pokemon_triplets(p)
         for p in pokemon
     ])
     write_ttl_to_file(pokemon_ttl, TTL_POKEMON_FILE)
+    """
 
+    #items
+    items = client.getAllItems()
+    items_ttl = "\n".join([
+        writer.write_item_triplets(p)
+        for p in items
+    ])
+    write_ttl_to_file(items_ttl, TTL_ITEM_FILE, )
     
 if __name__ == "__main__":
     main()
