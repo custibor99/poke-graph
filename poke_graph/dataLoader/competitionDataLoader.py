@@ -13,28 +13,36 @@ class CompetitionDataLoader:
 
         players = []
         teams = []
-
+        rounds = []
+        competition_prefix = filepath.split("/")[-1].split(",")[0].lower().replace(" ", "-")
         with open(filepath, "r") as file:
             data = json.load(file)
+            #For player
             for el in data:
                 name = el["name"]
                 player = Player(
-                    name.split(" ")[0].lower(),
-                    " ".join(name.split(" ")[1:-1]).lower(),
-                    name.split(" ")[-1][1:-1].lower()
+                    name.split(" ")[0].lower().replace(" ", "-"),
+                    "-".join(name.split(" ")[1:-1]).lower(),
+                    name.split(" ")[-1][1:-1].lower().replace(" ", "-")
                 )
                 players.append(player)
+                player_id = f"{player.first_name}-{player.last_name}-{player.country}"
+                
+                #Team members
                 members = []
                 for pokemon in el["decklist"]:
                     member = TeamMember(
                         parse_pokemon_names(pokemon["name"]),
                         parse_moves(pokemon["badges"]),
                         pokemon["ability"].lower().replace(" ", "-"),
-                        pokemon["item"].lower().replace(" ", "-")
+                        pokemon["item"].lower().replace(" ", "-"),
+                        pokemon["teratype"].lower()
                     )
                     members.append(member)
+                
+                #Build team
                 team = Team(
-                    "change-this!!",
+                    f"{player_id}-{competition_prefix}",
                     player,
                     members,
                     int(el["record"]["losses"]),
@@ -42,8 +50,28 @@ class CompetitionDataLoader:
                     int(el["record"]["wins"]),
                     int(el["placing"]),
                 )
-                return team
-        return players
+                teams.append(team) 
+
+                #Build rounds
+                for _, round in el["rounds"].items():
+                    name = round["name"]
+                    player2 = Player(
+                        name.split(" ")[0].lower().replace(" ", "-"),
+                        "-".join(name.split(" ")[1:-1]).lower(),
+                        name.split(" ")[-1][1:-1].lower().replace(" ", "-")
+                    )
+                    rounds.append(Round(
+                        player1=player,
+                        player2=player2,
+                        result=round["result"]
+                    ))
+                           
+
+        return Competition(
+            competition_prefix,
+            teams,
+            rounds
+        )
 
 
 def parse_pokemon_names(name:str) -> str:
@@ -131,18 +159,22 @@ class Player:
     last_name:str
     country:str
 
+    def __str__(self):
+        return f"{self.first_name}-{self.last_name}-{self.country}"
+
 @dataclass
 class TeamMember:
     pokemon: str
     moves: list[str]
     ability: str
     item: str
+    tera_type: str
 
 @dataclass
 class Team:
     id: str
     player:Player
-    TeamMember: list[Pokemon]
+    teamMember: list[TeamMember]
     losses: int
     ties: int
     wins: int
@@ -150,20 +182,17 @@ class Team:
 
 
 @dataclass
+class Round:
+    player1: Player
+    player2: Player
+    result: str
+
+@dataclass
 class Competition:
     title:str
-    start_date:datetime
-    end_date:datetime
     teams: list[Team]
+    rounds: list[Round]
 
 
-
-
-
-
-file = "data/battles/Barcelona Pokémon VGC Special Event 2024 Masters Standings September 16-17, 2023.json"
-dataLoader = CompetitionDataLoader()
-data = dataLoader.load(file)
-print(f"{data=}")
 
 

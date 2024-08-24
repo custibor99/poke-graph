@@ -1,4 +1,5 @@
 from poke_graph.models.base_models import Type, Move, Pokemon, Item
+from poke_graph.dataLoader.competitionDataLoader import *
 
 class TurtleWriter:
     def __init__(self, prefix):
@@ -97,7 +98,60 @@ class TurtleWriter:
         res += self.write_triplet(subject, "rdf:type", f"<{self.prefix}/Item>")
 
         return res
+    
+    def write_competition_triplets(self, competition: Competition):
 
+        competition_subject = f"<{self.prefix}/{competition.title}>"
+        res = ""
+        res += self.write_triplet(competition_subject, "rdf:type", "owl:NamedIndividual")
+        res += self.write_triplet(competition_subject, "rdf:type", f"<{self.prefix}/Competition>")
+
+        #Teams
+        for team in competition.teams:
+            team_subject = f"<{self.prefix}/{competition.title}-{team.player}>"
+            res += self.write_triplet(team_subject, "rdf:type", "owl:NamedIndividual")
+            res += self.write_triplet(team_subject, "rdf:type", f"<{self.prefix}/Team>")
+            res += self.write_triplet(team_subject, f"<{self.prefix}/competed>", competition_subject)
+
+            #Team competition results
+            res += self.write_triplet(team_subject, f"<{self.prefix}/losses>", team.losses)
+            res += self.write_triplet(team_subject, f"<{self.prefix}/ties>", team.ties)
+            res += self.write_triplet(team_subject, f"<{self.prefix}/wins>", team.wins)
+            res += self.write_triplet(team_subject, f"<{self.prefix}/placing>", team.placing)
+            
+
+            #players
+            player_subject = f"<{self.prefix}/{team.player}>"
+            res += self.write_triplet(player_subject, "rdf:type", "owl:NamedIndividual")
+            res += self.write_triplet(player_subject, "rdf:type", f"<{self.prefix}/Player>")
+            res += self.write_triplet(player_subject, f"<{self.prefix}/competed>", competition_subject)
+            res += self.write_triplet(player_subject, f"<{self.prefix}/has_team>", team_subject)
+
+            #team members
+            for member in team.teamMember:
+                member_subject = f"<{self.prefix}/{competition.title}-{team.player}-{member.pokemon}>"
+                res += self.write_triplet(member_subject, "rdf:type", "owl:NamedIndividual")
+                res += self.write_triplet(member_subject, "rdf:type", f"<{self.prefix}/TeamMember>")
+                res += self.write_triplet(member_subject, f"<{self.prefix}/part_of>", team_subject)
+                res += self.write_triplet(member_subject, f"<{self.prefix}/holds>", f"<{self.prefix}/{member.item}>")
+                res += self.write_triplet(member_subject, f"<{self.prefix}/species>", f"<{self.prefix}/{member.pokemon}>")
+                res += self.write_triplet(member_subject, f"<{self.prefix}/has_ability>", f"<{self.prefix}/{member.ability}>")
+                res += self.write_triplet(member_subject, f"<{self.prefix}/tera_type>", f"<{self.prefix}/{member.tera_type}>")
+
+                for move in member.moves:
+                    res += self.write_triplet(member_subject, f"<{self.prefix}/knows>", f"<{self.prefix}/{move}>")
+
+
+        #rounds
+        for round in competition.rounds:
+            result = "won" if round.result == "W" else "lost"
+            team1_id = f"<{self.prefix}/{competition.title}-{round.player1}>"
+            team2_id = f"<{self.prefix}/{competition.title}-{round.player2}>"
+            res += self.write_triplet(team1_id, f"<{self.prefix}/{result}>", team2_id)
+        
+        
+        return res
+        
 
 
 

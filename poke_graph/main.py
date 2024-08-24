@@ -1,6 +1,7 @@
 from poke_graph.clients.pokemonapi_client import PokemonApiClient
 from poke_graph.models.base_models import Type
 from poke_graph.tripletWritters.turtleWritter import TurtleWriter
+from poke_graph.dataLoader.competitionDataLoader import CompetitionDataLoader, Competition
 
 import os
 
@@ -8,12 +9,11 @@ TTL_TYPES_FILE = "data/types.ttl"
 TTL_MOVES_FILE = "data/moves.ttl"
 TTL_POKEMON_FILE = "data/pokemon.ttl"
 TTL_ITEM_FILE = "data/item.ttl"
-
-
+TTL_COMPETITION_FILE = "data/competition.ttl"
 
 
 def remove_ttl_files():
-    ttl_files = [TTL_TYPES_FILE, TTL_MOVES_FILE, TTL_POKEMON_FILE, TTL_ITEM_FILE]
+    ttl_files = [TTL_TYPES_FILE, TTL_MOVES_FILE, TTL_POKEMON_FILE, TTL_ITEM_FILE, TTL_COMPETITION_FILE]
     for file in ttl_files:
         if os.path.exists(file):
             os.remove(file)
@@ -52,7 +52,6 @@ def main():
         for p in pokemon
     ])
     write_ttl_to_file(pokemon_ttl, TTL_POKEMON_FILE)
-    """
 
     #items
     items = client.getAllItems()
@@ -60,8 +59,17 @@ def main():
         writer.write_item_triplets(p)
         for p in items
     ])
-    write_ttl_to_file(items_ttl, TTL_ITEM_FILE, )
-    
+    write_ttl_to_file(items_ttl, TTL_ITEM_FILE)
+    """
+
+    loader = CompetitionDataLoader()
+    competitions_ttl = ""
+    for file in os.listdir("data/battles"):
+        competitions = loader.load(f"data/battles/{file}")
+        competitions_ttl += writer.write_competition_triplets(competitions)
+
+    write_ttl_to_file(competitions_ttl, TTL_COMPETITION_FILE)
+
 if __name__ == "__main__":
     main()
 
