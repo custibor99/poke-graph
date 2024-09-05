@@ -20,10 +20,13 @@ class CompetitionDataLoader:
             #For player
             for el in data:
                 name = el["name"]
+                first_name = re.sub(r"[\W]", "", name.split(" ")[0].lower().replace(" ", "-"))
+                last_name = re.sub(r"[\W]", "", "-".join(name.split(" ")[1:-1]).lower(),)
+                country = name.split(" ")[-1][1:-1].lower().replace(" ", "-")
                 player = Player(
-                    name.split(" ")[0].lower().replace(" ", "-"),
-                    "-".join(name.split(" ")[1:-1]).lower(),
-                    name.split(" ")[-1][1:-1].lower().replace(" ", "-")
+                    first_name,
+                    last_name,
+                    country
                 )
                 players.append(player)
                 player_id = f"{player.first_name}-{player.last_name}-{player.country}"
@@ -160,7 +163,9 @@ class Player:
     country:str
 
     def __str__(self):
-        return f"{self.first_name}-{self.last_name}-{self.country}"
+        fn = self.first_name.replace("<", "").replace(">", "").replace('"',"")
+        ln = self.last_name.replace("<", "").replace(">", "").replace('"',"")
+        return f"{fn}-{ln}-{self.country}"
 
 @dataclass
 class TeamMember:

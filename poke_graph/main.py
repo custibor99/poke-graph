@@ -19,15 +19,15 @@ def remove_ttl_files():
             os.remove(file)
 def write_ttl_to_file(ttl: str, filepath:str):
     with open(filepath, "w") as file:
+        file.write("@prefix pkmn: <http://tiborcus.pokegraph.com#> . \n")
         file.write(ttl)
 
 
 
 def main():
     client = PokemonApiClient()
-    writer = TurtleWriter("http://webprotege.stanford.edu")
+    writer = TurtleWriter()
 
-    
     """
     #moves
     moves = client.getAllMoves()
@@ -35,8 +35,8 @@ def main():
         writer.write_move_triplets(move)
         for move in moves
     ])
-    write_ttl_to_file(moves_ttl, TTL_MOVES_FILE)
 
+    write_ttl_to_file(moves_ttl, TTL_MOVES_FILE)
     #types
     types = client.getAllTypes()
     types_ttl = "\n".join([
@@ -44,7 +44,7 @@ def main():
         for t in types
     ])
     write_ttl_to_file(types_ttl, TTL_TYPES_FILE)
-    
+    """
     #pokemon and abilities
     pokemon = client.getAllPokemon()
     pokemon_ttl = "\n".join([
@@ -61,7 +61,6 @@ def main():
     ])
     write_ttl_to_file(items_ttl, TTL_ITEM_FILE)
     """
-
     loader = CompetitionDataLoader()
     competitions_ttl = ""
     for file in os.listdir("data/battles"):
@@ -69,6 +68,7 @@ def main():
         competitions_ttl += writer.write_competition_triplets(competitions)
 
     write_ttl_to_file(competitions_ttl, TTL_COMPETITION_FILE)
+    """
 
 if __name__ == "__main__":
     main()
