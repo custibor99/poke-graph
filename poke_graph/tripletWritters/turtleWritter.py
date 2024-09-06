@@ -6,6 +6,8 @@ class TurtleWriter:
         self.prefix = prefix
 
     def write_triplet(self, subject:str, relation:str, object:str) -> str:
+        regex = re.compile(r"[^\w\-:]")
+        subject = regex.sub("", subject)
         return f"{subject} {relation} {object} . \n"
     
     def write_type_triplets(self, type:Type) -> str:
@@ -14,13 +16,13 @@ class TurtleWriter:
         res += self.write_triplet(subject, "rdf:type", f"{self.prefix}Type")
 
         for name in type.double_damage_to:
-            res += self.write_triplet(subject, "double_damage", f"{self.prefix}{name}")
+            res += self.write_triplet(subject, f"{self.prefix}double_damage", f"{self.prefix}{name}")
 
         for name in type.half_damage_to:
-            res += self.write_triplet(subject, "half_damage", f"{self.prefix}{name}")
+            res += self.write_triplet(subject, f"{self.prefix}half_damage", f"{self.prefix}{name}")
 
         for name in type.no_damage_to:
-            res += self.write_triplet(subject, "no_damage", f"{self.prefix}{name}")
+            res += self.write_triplet(subject, f"{self.prefix}no_damage", f"{self.prefix}{name}")
         return res
     
     def write_move_triplets(self, move:Move):
@@ -99,15 +101,17 @@ class TurtleWriter:
         return res
     
     def write_competition_triplets(self, competition: Competition):
+        regex = re.compile(r"[^\w\-:]")
 
         competition_subject = f"{self.prefix}{competition.title}"
+        competition_subject = regex.sub("", competition_subject)
         res = ""
         res += self.write_triplet(competition_subject, "rdf:type", "owl:NamedIndividual")
         res += self.write_triplet(competition_subject, "rdf:type", f"{self.prefix}Competition")
 
         #Teams
         for team in competition.teams:
-            team_subject = f"{self.prefix}{competition.title}-{team.player}"
+            team_subject = regex.sub("",f"{self.prefix}{competition.title}-{team.player}")
             res += self.write_triplet(team_subject, "rdf:type", "owl:NamedIndividual")
             res += self.write_triplet(team_subject, "rdf:type", f"{self.prefix}Team")
             res += self.write_triplet(team_subject, f"{self.prefix}competed", competition_subject)
@@ -120,7 +124,8 @@ class TurtleWriter:
             
 
             #players
-            player_subject = f"{self.prefix}{team.player}"
+            player_subject = regex.sub("",f"{self.prefix}{team.player}")
+            player_subject = player_subject.replace("'", "")
             player_name = f"{team.player}"
             first_name = player_name.split("-")[0]
             last_name = "-".join(player_name.split("-")[1:-1])
@@ -133,25 +138,26 @@ class TurtleWriter:
 
             #team members
             for member in team.teamMember:
-                member_subject = f"{self.prefix}{competition.title}-{team.player}-{member.pokemon}"
+                member_subject = regex.sub("",f"{self.prefix}{competition.title}-{team.player}-{member.pokemon}".replace("'", ""))
+
                 res += self.write_triplet(member_subject, "rdf:type", "owl:NamedIndividual")
                 res += self.write_triplet(member_subject, "rdf:type", f"{self.prefix}TeamMember")
                 res += self.write_triplet(member_subject, f"{self.prefix}part_of", team_subject)
                 res += self.write_triplet(team_subject, f"{self.prefix}has_member", member_subject)
-                res += self.write_triplet(member_subject, f"{self.prefix}holds", f"{self.prefix}{member.item}")
-                res += self.write_triplet(member_subject, f"{self.prefix}species", f"{self.prefix}{member.pokemon}")
-                res += self.write_triplet(member_subject, f"{self.prefix}has_ability", f"{self.prefix}{member.ability}")
+                res += self.write_triplet(member_subject, f"{self.prefix}holds", regex.sub("",f"{self.prefix}{member.item}"))
+                res += self.write_triplet(member_subject, f"{self.prefix}species", regex.sub("",f"{self.prefix}{member.pokemon}"))
+                res += self.write_triplet(member_subject, f"{self.prefix}has_ability", regex.sub("",f"{self.prefix}{member.ability}"))
                 res += self.write_triplet(member_subject, f"{self.prefix}tera_type", f"{self.prefix}{member.tera_type}")
 
                 for move in member.moves:
-                    res += self.write_triplet(member_subject, f"{self.prefix}knows", f"{self.prefix}{move}")
+                    res += self.write_triplet(member_subject, f"{self.prefix}knows", regex.sub("",f"{self.prefix}{move}"))
 
 
         #rounds
         for round in competition.rounds:
             result = "won" if round.result == "W" else "lost"
-            team1_id = f"{self.prefix}{competition.title}-{round.player1}"
-            team2_id = f"{self.prefix}{competition.title}-{round.player2}"
+            team1_id = regex.sub("",f"{self.prefix}{competition.title}-{round.player1}".replace("'",""))
+            team2_id = regex.sub("",f"{self.prefix}{competition.title}-{round.player2}".replace("'",""))
             res += self.write_triplet(team1_id, f"{self.prefix}{result}", team2_id)
         
         

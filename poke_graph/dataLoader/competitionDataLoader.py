@@ -29,7 +29,7 @@ class CompetitionDataLoader:
                     country
                 )
                 players.append(player)
-                player_id = f"{player.first_name}-{player.last_name}-{player.country}"
+                player_id = f"{player.first_name}-{player.last_name}-{player.country}".replace("'","")
                 
                 #Team members
                 members = []
@@ -37,15 +37,15 @@ class CompetitionDataLoader:
                     member = TeamMember(
                         parse_pokemon_names(pokemon["name"]),
                         parse_moves(pokemon["badges"]),
-                        pokemon["ability"].lower().replace(" ", "-"),
-                        pokemon["item"].lower().replace(" ", "-"),
+                        pokemon["ability"].lower().replace(" ", "-").replace("'",""),
+                        pokemon["item"].lower().replace(" ", "-").replace("'",""),
                         pokemon["teratype"].lower()
                     )
                     members.append(member)
                 
                 #Build team
                 team = Team(
-                    f"{player_id}-{competition_prefix}",
+                    f"{player_id}-{competition_prefix}".replace("'",""),
                     player,
                     members,
                     int(el["record"]["losses"]),
@@ -59,9 +59,9 @@ class CompetitionDataLoader:
                 for _, round in el["rounds"].items():
                     name = round["name"]
                     player2 = Player(
-                        name.split(" ")[0].lower().replace(" ", "-"),
+                        name.split(" ")[0].lower().replace(" ", "-").replace("'",""),
                         "-".join(name.split(" ")[1:-1]).lower(),
-                        name.split(" ")[-1][1:-1].lower().replace(" ", "-")
+                        name.split(" ")[-1][1:-1].lower().replace(" ", "-").replace("'","")
                     )
                     rounds.append(Round(
                         player1=player,
@@ -151,7 +151,7 @@ def parse_pokemon_names(name:str) -> str:
 
 def parse_moves(moves:list[str]) -> list[str]:
     return [
-        name.lower().replace(" ", "-")
+        name.lower().replace(" ", "-").replace("'","")
         for name in moves
     ]
 

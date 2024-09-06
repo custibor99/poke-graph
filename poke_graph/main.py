@@ -43,8 +43,8 @@ def main():
         writer.write_type_triplets(t)
         for t in types
     ])
+    
     write_ttl_to_file(types_ttl, TTL_TYPES_FILE)
-    """
     #pokemon and abilities
     pokemon = client.getAllPokemon()
     pokemon_ttl = "\n".join([
@@ -68,7 +68,6 @@ def main():
         competitions_ttl += writer.write_competition_triplets(competitions)
 
     write_ttl_to_file(competitions_ttl, TTL_COMPETITION_FILE)
-    """
 
 if __name__ == "__main__":
     main()
